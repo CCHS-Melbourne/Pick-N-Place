@@ -212,7 +212,7 @@
             <sneak-up-offset value="0.0" units="Millimeters"/>
             <soft-limit-low value="-50.0" units="Millimeters"/>
             <soft-limit-high value="0.0" units="Millimeters"/>
-            <safe-zone-low value="0.0" units="Millimeters"/>
+            <safe-zone-low value="-3.0" units="Millimeters"/>
             <safe-zone-high value="0.0" units="Millimeters"/>
             <feedrate-per-second value="166.667" units="Millimeters"/>
             <acceleration-per-second-2 value="100.0" units="Millimeters"/>
@@ -241,8 +241,8 @@
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>NT1</string>
                   </compatible-nozzle-tip-ids>
-                  <head-offsets units="Millimeters" x="-81.183" y="-4.294" z="19.9" rotation="0.0"/>
-                  <manual-nozzle-tip-change-location units="Millimeters" x="61.0" y="243.31" z="-30.0" rotation="0.0"/>
+                  <head-offsets units="Millimeters" x="-81.183" y="-4.294" z="0.0" rotation="0.0"/>
+                  <manual-nozzle-tip-change-location units="Millimeters" x="24.073" y="62.529" z="-25.508" rotation="0.0"/>
                   <vacuum-sense-actuator-name>N1:PROBE</vacuum-sense-actuator-name>
                   <vacuum-actuator-name>N1:PUMP</vacuum-actuator-name>
                   <blow-off-actuator-name>N1:SOLENOID</blow-off-actuator-name>
@@ -251,14 +251,19 @@
                   <contact-probe-depth-z value="2.0" units="Millimeters"/>
                   <sniffle-increment-z value="0.1" units="Millimeters"/>
                   <contact-probe-adjust-z value="0.0" units="Millimeters"/>
-                  <calibration-offset-z value="0.3252000000000006" units="Millimeters"/>
+                  <calibration-offset-z value="0.5047999999999995" units="Millimeters"/>
                   <probed-feeder-height-offsets>
                      <entry>
                         <string>FDR16bc4bf8025c7bea</string>
-                        <length value="-4.0601" units="Millimeters"/>
+                        <length value="-3.740200000000005" units="Millimeters"/>
                      </entry>
                   </probed-feeder-height-offsets>
-                  <probed-part-height-offsets/>
+                  <probed-part-height-offsets>
+                     <entry>
+                        <string>R0805-1K</string>
+                        <length value="-6.845600000000001" units="Millimeters"/>
+                     </entry>
+                  </probed-part-height-offsets>
                </nozzle>
             </nozzles>
             <actuators>
@@ -292,8 +297,8 @@
                      <focal-resolution value="0.05" units="Millimeters"/>
                   </focus-provider>
                   <back-light-compensation property="BackLightCompensation" value="0" auto="false"/>
-                  <brightness property="Brightness" value="75" auto="false"/>
-                  <contrast property="Contrast" value="87" auto="false"/>
+                  <brightness property="Brightness" value="50" auto="false"/>
+                  <contrast property="Contrast" value="63" auto="false"/>
                   <exposure property="Exposure"/>
                   <focus property="Focus"/>
                   <gain property="Gain"/>
@@ -308,7 +313,7 @@
             </cameras>
             <park-location units="Millimeters" x="18.357" y="180.398" z="0.0" rotation="0.0"/>
             <soft-limits-enabled>true</soft-limits-enabled>
-            <pump-actuator-name>N1:PUMP</pump-actuator-name>
+            <pump-actuator-name>N1:SOLENOID</pump-actuator-name>
             <homing-fiducial-location units="Millimeters" x="18.357" y="180.398" z="-24.400000000000006" rotation="0.0"/>
             <calibration-primary-fiducial-location units="Millimeters" x="18.454684495195398" y="179.044" z="-22.948700000000002" rotation="0.0"/>
             <calibration-secondary-fiducial-location units="Millimeters" x="18.14788415461237" y="219.846" z="-15.048700000000002" rotation="0.0"/>
@@ -318,7 +323,7 @@
       </heads>
       <signalers/>
       <feeders>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="F5" name="stripe 1" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="F5" name="stripe 1" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="279.45837598670965" y="371.82434388008716" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="279.3760243318033" y="367.75005943505863" z="-32.0" rotation="0.0"/>
@@ -340,7 +345,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16824709705ebc3e" name="stripe 2" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16824709705ebc3e" name="stripe 2" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="310.9256142332972" y="250.2613479226835" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="310.59961919683735" y="246.50161468860608" z="-32.0" rotation="0.0"/>
@@ -362,7 +367,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470abe08a76c" name="stripe 3" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470abe08a76c" name="stripe 3" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="327.51104298110755" y="250.72305742823653" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="327.42854784494693" y="246.92460916970956" z="-32.0" rotation="0.0"/>
@@ -384,7 +389,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470c1d6a472f" name="stripe 4" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470c1d6a472f" name="stripe 4" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="345.9699237327655" y="248.60187512892182" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="345.9016283910896" y="244.59715975331866" z="-32.0" rotation="0.0"/>
@@ -406,7 +411,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470cd8e655af" name="stripe 5" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470cd8e655af" name="stripe 5" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="364.2661064562063" y="243.23613673151084" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="364.26718877325266" y="239.2798204299322" z="-32.0" rotation="0.0"/>
@@ -428,7 +433,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470d7bf96605" name="stripe 6" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470d7bf96605" name="stripe 6" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="380.35412102574514" y="247.3401884134105" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="380.238265352307" y="243.5049228849946" z="-32.0" rotation="0.0"/>
@@ -450,7 +455,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470e288cbd36" name="stripe 7" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470e288cbd36" name="stripe 7" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="417.79052122491174" y="245.2252995625546" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="417.8228645423027" y="241.25733565053926" z="-32.0" rotation="0.0"/>
@@ -472,7 +477,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470eba790919" name="stripe 8" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470eba790919" name="stripe 8" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="417.91784627751963" y="245.15302317994767" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="417.9014929174403" y="241.2178321607998" z="-32.0" rotation="0.0"/>
@@ -494,7 +499,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470f56e4162a" name="stripe 9" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682470f56e4162a" name="stripe 9" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="437.885078616912" y="242.50674989783963" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="437.72530477889035" y="238.50931752404364" z="-32.0" rotation="0.0"/>
@@ -516,7 +521,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16824719dc02769f" name="stripe 10" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16824719dc02769f" name="stripe 10" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="456.02704652787116" y="241.2646129554139" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="455.98341649975504" y="237.28769086674302" z="-32.0" rotation="0.0"/>
@@ -538,7 +543,7 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682471a8b8884ee" name="stripe 11" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR1682471a8b8884ee" name="stripe 11" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" vision-enabled="true" feed-count="0" max-feed-count="48">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <reference-hole-location units="Millimeters" x="474.736172424783" y="249.09217390157445" z="-32.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="474.60308877642836" y="245.27563009858667" z="-32.0" rotation="0.0"/>
@@ -560,10 +565,10 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR16bc4bf8025c7bea" name="ReferencePushPullFeeder" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" rotation-in-feeder="0.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" feed-multiplier="1" feed-speed-push-2="1.0" feed-speed-push-3="1.0" feed-speed-push-end="1.0" feed-speed-pull-3="1.0" feed-speed-pull-2="1.0" feed-speed-pull-1="1.0" feed-speed-pull-0="1.0" included-push-1="false" included-push-2="false" included-push-3="true" included-push-end="false" included-multi-0="false" included-multi-1="false" included-multi-2="false" included-multi-3="false" included-multi-end="true" included-pull-0="false" included-pull-1="true" included-pull-2="true" included-pull-3="false" actuator-name="N1:PUSH_PULL" peel-off-actuator-name="" feed-count="17" ocr-font-name="Liberation Mono" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="false" ocr-stop-after-wrong-part="false" calibration-count="4" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="UntilConfident">
-            <location units="Millimeters" x="483.613" y="41.785" z="-9.259" rotation="90.0"/>
-            <hole-1-location units="Millimeters" x="480.54200369509897" y="39.1279911717334" z="-0.0" rotation="0.0"/>
-            <hole-2-location units="Millimeters" x="480.54200369509897" y="43.1279911717334" z="0.0" rotation="0.0"/>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR16bc4bf8025c7bea" name="ReferencePushPullFeeder" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" rotation-in-feeder="0.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" feed-multiplier="1" feed-speed-push-2="1.0" feed-speed-push-3="1.0" feed-speed-push-end="1.0" feed-speed-pull-3="1.0" feed-speed-pull-2="1.0" feed-speed-pull-1="1.0" feed-speed-pull-0="1.0" included-push-1="false" included-push-2="false" included-push-3="true" included-push-end="false" included-multi-0="false" included-multi-1="false" included-multi-2="false" included-multi-3="false" included-multi-end="true" included-pull-0="false" included-pull-1="true" included-pull-2="true" included-pull-3="false" actuator-name="N1:PUSH_PULL" peel-off-actuator-name="" feed-count="29" ocr-font-name="Liberation Mono" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="false" ocr-stop-after-wrong-part="false" calibration-count="3" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="UntilConfident">
+            <location units="Millimeters" x="483.6920904851055" y="40.380377420089104" z="-29.185" rotation="90.0"/>
+            <hole-1-location units="Millimeters" x="480.1920904851055" y="38.380377420089104" z="-0.0" rotation="0.0"/>
+            <hole-2-location units="Millimeters" x="480.1920904851055" y="42.380377420089104" z="0.0" rotation="0.0"/>
             <feed-start-location units="Millimeters" x="565.088" y="18.849" z="-15.259" rotation="0.0"/>
             <feed-mid-1-location units="Millimeters" x="565.088" y="18.849" z="-25.259" rotation="0.0"/>
             <feed-mid-2-location units="Millimeters" x="565.088" y="28.849" z="-25.259" rotation="0.0"/>
@@ -595,8 +600,8 @@
                </stages>
             </pipeline>
             <precision-wanted value="0.1" units="Millimeters"/>
-            <sum-of-errors value="0.37984551035314357" units="Millimeters"/>
-            <sum-of-error-squares value="0.046541043925130775" units="Millimeters"/>
+            <sum-of-errors value="1.242342482293388" units="Millimeters"/>
+            <sum-of-error-squares value="0.9803279739546535" units="Millimeters"/>
          </feeder>
       </feeders>
       <cameras>
@@ -604,7 +609,7 @@
             <units-per-pixel units="Millimeters" x="0.013830513880720248" y="0.013679114422345187" z="0.0" rotation="0.0"/>
             <camera-primary-z value="-5.695666666666667" units="Millimeters"/>
             <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
-            <head-offsets units="Millimeters" x="245.30527121899038" y="56.144826420438" z="-5.695666666666666" rotation="180.0"/>
+            <head-offsets units="Millimeters" x="245.30527121899038" y="56.144826420438" z="-25.595666666666666" rotation="180.0"/>
             <calibration enabled="false">
                <camera-matrix length="9">6.199766824520647E223, 2.8806793736619725E214, 4.0541785489840785E228, 4.2854800276585076E170, 3.60772083633585E-85, 1.3139730257272647E-47, 8.429917140154928E276, 7.691193644833856E218, 1.476498187985709E-28</camera-matrix>
                <distortion-coefficients length="5">0.0, 0.0, 0.0, 0.0, 0.0</distortion-coefficients>
@@ -868,7 +873,7 @@
             <simulated line-ending-type="LF"/>
             <homing-fiducial-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <detected-firmware><![CDATA[FIRMWARE_NAME:TinyG, FIRMWARE_URL:https%3A//github.com/synthetos/TinyG, FIRMWARE_VERSION:0.97, FIRMWARE_BUILD:440.21, HARDWARE_PLATFORM:1.00, HARDWARE_VERSION:8.00]]></detected-firmware>
-            <reported-axes><![CDATA[X:326.4883 Y:60.4388 Z:-25.9209 A:180.0000 B:0.0000 C:0.0000]]></reported-axes>
+            <reported-axes><![CDATA[X:484.4732 Y:41.8660 Z:-30.0590 A:0.0000 B:0.0000 C:0.0000]]></reported-axes>
             <command type="DISABLE_COMMAND">
                <text><![CDATA[M9 M5]]></text>
             </command>
@@ -1031,7 +1036,7 @@
             <junction-deviation value="0.02" units="Millimeters"/>
          </driver>
       </drivers>
-      <discard-location units="Millimeters" x="8.338" y="50.796" z="-2.938" rotation="0.0"/>
+      <discard-location units="Millimeters" x="24.069" y="62.524" z="-5.608" rotation="90.0"/>
       <properties>
          <entry>
             <string>MultiPlacementBoardLocationProperties</string>
@@ -1048,7 +1053,7 @@
          </entry>
       </properties>
       <nozzle-tips>
-         <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="NT1" name="NT1" pick-dwell-milliseconds="0" place-dwell-milliseconds="0" vision-calibration="FirstLocation" vision-calibration-trigger="MachineHome" vision-match-minimum-score="0.2" vision-calibration-max-passes="3" z-calibration-trigger="MachineHome" z-calibration-fail-homing="true" template-nozzle-tip="false" template-locked="false" establish-part-on-level="false" establish-part-off-level="false" part-off-probing-milliseconds="0" part-off-dwell-milliseconds="0" is-push-and-drag-allowed="false">
+         <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="NT1" name="NT1" pick-dwell-milliseconds="2000" place-dwell-milliseconds="1000" vision-calibration="FirstLocation" vision-calibration-trigger="MachineHome" vision-match-minimum-score="0.2" vision-calibration-max-passes="3" z-calibration-trigger="MachineHome" z-calibration-fail-homing="true" template-nozzle-tip="false" template-locked="false" establish-part-on-level="false" establish-part-off-level="false" part-off-probing-milliseconds="0" part-off-dwell-milliseconds="0" is-push-and-drag-allowed="false">
             <changer-start-location units="Millimeters" x="41.0" y="243.31" z="-30.0" rotation="0.0"/>
             <changer-start-to-mid-speed>10.0</changer-start-to-mid-speed>
             <changer-mid-location units="Millimeters" x="-39.0" y="243.31" z="-29.5" rotation="0.0"/>
@@ -1056,7 +1061,7 @@
             <changer-mid-location-2 units="Millimeters" x="61.0" y="243.31" z="-30.0" rotation="0.0"/>
             <changer-mid-2-to-end-speed>10.0</changer-mid-2-to-end-speed>
             <changer-end-location units="Millimeters" x="61.0" y="243.31" z="-30.0" rotation="0.0"/>
-            <touch-location units="Millimeters" x="14.212" y="0.931" z="-10.731" rotation="0.0"/>
+            <touch-location units="Millimeters" x="14.212" y="0.931" z="-30.41" rotation="0.0"/>
             <vision-calibration-Z-adjust value="0.0" units="Millimeters"/>
             <vision-template-dimension-x value="10.0" units="Millimeters"/>
             <vision-template-dimension-y value="10.0" units="Millimeters"/>
@@ -1084,7 +1089,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>NOZ16c8283ab6e92996</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.0599322268164544" center-y="-0.03875749086331137" radius="0.006034026436092478" phase-shift="-132.58775105962744" units="Millimeters" peak-error="0.14125178041427044" rms-error="0.0948141415277275"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.0922034258714683" center-y="0.004559704807448397" radius="1.431071433624947E-10" phase-shift="90.00000000000001" units="Millimeters" peak-error="0.09262973386360504" rms-error="0.08164891128180843"/>
                   </entry>
                </runout-compensation-lookup>
                <offset-threshold-length value="0.5" units="Millimeters"/>
