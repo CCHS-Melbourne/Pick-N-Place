@@ -10,6 +10,9 @@
          <pad name="1" x="-0.825" y="0.0" width="0.35" height="1.25" rotation="0.0" roundness="0.0"/>
          <pad name="2" x="0.825" y="0.0" width="0.35" height="1.25" rotation="0.0" roundness="0.0"/>
       </footprint>
+      <vision-compositing compositing-method="Restricted" min-leverage-factor="0.2" extra-shots="0" allow-inside="true">
+         <max-pick-tolerance value="0.0" units="Millimeters"/>
+      </vision-compositing>
       <compatible-nozzle-tip-ids class="java.util.ArrayList">
          <string>NT1</string>
       </compatible-nozzle-tip-ids>
