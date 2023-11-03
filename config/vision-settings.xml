@@ -17,7 +17,7 @@
       <parallax-diameter value="0.0" units="Millimeters"/>
       <max-linear-offset value="0.2" units="Millimeters"/>
    </vision-settings>
-   <vision-settings class="org.openpnp.model.FiducialVisionSettings" id="FVS_Default" name="- Default Machine Fiducial Locator -" enabled="true" parallax-angle="0.0" max-vision-passes="3">
+   <vision-settings class="org.openpnp.model.FiducialVisionSettings" id="FVS_Default" name="- Default Machine Fiducial Locator -" enabled="true" parallax-angle="0.0" max-vision-passes="10">
       <cv-pipeline>
          <stages>
             <cv-stage class="org.openpnp.vision.pipeline.stages.CreateFootprintTemplateImage" name="template" enabled="true" footprint-view="Fiducial" minimal-image-size="false" x-offset="0.0" y-offset="0.0" rotation="0.0" max-width="0.0" max-height="0.0" property-name="footprint">
