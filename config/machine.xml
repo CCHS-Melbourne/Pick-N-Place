@@ -7,12 +7,12 @@
             <backlash-offset value="0.30389951524703207" units="Millimeters"/>
             <sneak-up-offset value="0.0" units="Millimeters"/>
             <soft-limit-low value="0.0" units="Millimeters"/>
-            <soft-limit-high value="570.0" units="Millimeters"/>
+            <soft-limit-high value="560.0" units="Millimeters"/>
             <safe-zone-low value="0.0" units="Millimeters"/>
-            <safe-zone-high value="570.0" units="Millimeters"/>
-            <feedrate-per-second value="2500.0" units="Millimeters"/>
-            <acceleration-per-second-2 value="500.0" units="Millimeters"/>
-            <jerk-per-second-3 value="500.0" units="Millimeters"/>
+            <safe-zone-high value="560.0" units="Millimeters"/>
+            <feedrate-per-second value="3000.0" units="Millimeters"/>
+            <acceleration-per-second-2 value="3000.0" units="Millimeters"/>
+            <jerk-per-second-3 value="1000.0" units="Millimeters"/>
             <resolution>0.0125</resolution>
             <step-test-graph relative-padding-left="0.05" relative-padding-right="0.0" logarithmic="false" zero-nano-time="-9223372036854775808" last-t="0">
                <data-scale label="E" label-shown="false" relative-padding-top="0.0" relative-padding-bottom="0.2" logarithmic="false" symmetric-if-signed="true" square-aspect-ratio="false">
@@ -108,14 +108,14 @@
             <acceptable-tolerance value="0.1" units="Millimeters"/>
             <backlash-offset value="0.10364054919617445" units="Millimeters"/>
             <sneak-up-offset value="0.0" units="Millimeters"/>
-            <soft-limit-low value="0.0" units="Millimeters"/>
+            <soft-limit-low value="-7.5" units="Millimeters"/>
             <soft-limit-high value="370.307" units="Millimeters"/>
-            <safe-zone-low value="0.0" units="Millimeters"/>
+            <safe-zone-low value="2.274" units="Millimeters"/>
             <safe-zone-high value="350.0" units="Millimeters"/>
-            <feedrate-per-second value="2500.0" units="Millimeters"/>
-            <acceleration-per-second-2 value="500.0" units="Millimeters"/>
-            <jerk-per-second-3 value="500.0" units="Millimeters"/>
-            <resolution>1.0E-4</resolution>
+            <feedrate-per-second value="3000.0" units="Millimeters"/>
+            <acceleration-per-second-2 value="3000.0" units="Millimeters"/>
+            <jerk-per-second-3 value="1000.0" units="Millimeters"/>
+            <resolution>0.0125</resolution>
             <step-test-graph relative-padding-left="0.05" relative-padding-right="0.0" logarithmic="false" zero-nano-time="-9223372036854775808" last-t="0">
                <data-scale label="E" label-shown="false" relative-padding-top="0.0" relative-padding-bottom="0.2" logarithmic="false" symmetric-if-signed="true" square-aspect-ratio="false">
                   <color r="0" g="0" b="0" a="64"/>
@@ -212,31 +212,31 @@
             <sneak-up-offset value="0.0" units="Millimeters"/>
             <soft-limit-low value="-50.0" units="Millimeters"/>
             <soft-limit-high value="2.0" units="Millimeters"/>
-            <safe-zone-low value="-3.0" units="Millimeters"/>
+            <safe-zone-low value="-2.0" units="Millimeters"/>
             <safe-zone-high value="2.0" units="Millimeters"/>
-            <feedrate-per-second value="166.667" units="Millimeters"/>
-            <acceleration-per-second-2 value="100.0" units="Millimeters"/>
-            <jerk-per-second-3 value="50000.0" units="Millimeters"/>
-            <resolution>1.0E-4</resolution>
+            <feedrate-per-second value="200.0" units="Millimeters"/>
+            <acceleration-per-second-2 value="300.0" units="Millimeters"/>
+            <jerk-per-second-3 value="300.0" units="Millimeters"/>
+            <resolution>0.0125</resolution>
          </axis>
-         <axis class="org.openpnp.machine.reference.axis.ReferenceControllerAxis" id="AXS1650881a8f6b1746" name="rotation" type="Rotation" driver-id="DRV166208a07d8ab5cf" letter="A" backlash-compensation-method="None" backlash-speed-factor="0.1" limit-rotation="true" wrap-around-rotation="true" invert-linear-rotational="false" soft-limit-low-enabled="false" soft-limit-high-enabled="false" safe-zone-low-enabled="false" safe-zone-high-enabled="false" version="2.0">
+         <axis class="org.openpnp.machine.reference.axis.ReferenceControllerAxis" id="AXS1650881a8f6b1746" name="rotation" type="Rotation" driver-id="DRV166208a07d8ab5cf" letter="A" backlash-compensation-method="None" backlash-speed-factor="0.1" limit-rotation="true" wrap-around-rotation="true" invert-linear-rotational="false" soft-limit-low-enabled="true" soft-limit-high-enabled="true" safe-zone-low-enabled="false" safe-zone-high-enabled="false" version="2.0">
             <home-coordinate value="0.0" units="Millimeters"/>
             <acceptable-tolerance value="0.025" units="Millimeters"/>
             <backlash-offset value="0.0" units="Millimeters"/>
             <sneak-up-offset value="0.0" units="Millimeters"/>
-            <soft-limit-low value="-180.0" units="Millimeters"/>
-            <soft-limit-high value="180.0" units="Millimeters"/>
+            <soft-limit-low value="-160.0" units="Millimeters"/>
+            <soft-limit-high value="200.0" units="Millimeters"/>
             <safe-zone-low value="0.0" units="Millimeters"/>
             <safe-zone-high value="0.0" units="Millimeters"/>
-            <feedrate-per-second value="100000.0" units="Millimeters"/>
-            <acceleration-per-second-2 value="1000000.0" units="Millimeters"/>
-            <jerk-per-second-3 value="50000.0" units="Millimeters"/>
-            <resolution>1.0E-4</resolution>
+            <feedrate-per-second value="8000.0" units="Millimeters"/>
+            <acceleration-per-second-2 value="6000.0" units="Millimeters"/>
+            <jerk-per-second-3 value="2000.0" units="Millimeters"/>
+            <resolution>0.0125</resolution>
          </axis>
-         <axis class="org.openpnp.machine.reference.axis.ReferenceVirtualAxis" id="AXS16d333200725688f" name="Rotation headcam" type="Rotation">
+         <axis class="org.openpnp.machine.reference.axis.ReferenceVirtualAxis" id="AXS179588d5f8e14ff0" name="Z headcam" type="Z">
             <home-coordinate value="0.0" units="Millimeters"/>
          </axis>
-         <axis class="org.openpnp.machine.reference.axis.ReferenceVirtualAxis" id="AXS16d3332147d1acdf" name="Z headcam" type="Z">
+         <axis class="org.openpnp.machine.reference.axis.ReferenceVirtualAxis" id="AXS179588d5f906b1ea" name="Rotation headcam" type="Rotation">
             <home-coordinate value="0.0" units="Millimeters"/>
          </axis>
       </axes>
@@ -247,8 +247,8 @@
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>NT1</string>
                   </compatible-nozzle-tip-ids>
-                  <head-offsets units="Millimeters" x="-77.40244714993202" y="9.798772092699728" z="0.0" rotation="0.0"/>
-                  <manual-nozzle-tip-change-location units="Millimeters" x="-640.3567766561882" y="197.32218076675235" z="-46.507999999999996" rotation="0.0"/>
+                  <head-offsets units="Millimeters" x="-79.8" y="6.35" z="0.0" rotation="0.0"/>
+                  <manual-nozzle-tip-change-location units="Millimeters" x="-1115.668991713157" y="251.80754054054628" z="-46.507999999999996" rotation="0.0"/>
                   <vacuum-sense-actuator-name>N1:VACUUM_SENSE</vacuum-sense-actuator-name>
                   <vacuum-actuator-name>N1:PUMP</vacuum-actuator-name>
                   <blow-off-actuator-name>N1:SOLENOID</blow-off-actuator-name>
@@ -257,15 +257,23 @@
                   <contact-probe-depth-z value="2.0" units="Millimeters"/>
                   <sniffle-increment-z value="0.1" units="Millimeters"/>
                   <contact-probe-adjust-z value="0.0" units="Millimeters"/>
-                  <calibration-offset-z value="0.41520000000000223" units="Millimeters"/>
+                  <calibration-offset-z value="0.2607000000000035" units="Millimeters"/>
                   <probed-feeder-height-offsets>
                      <entry>
                         <string>FDR177db002c1a075cc</string>
                         <length value="-2.5749999999999993" units="Millimeters"/>
                      </entry>
                      <entry>
+                        <string>FDR17b3655aa0243ff4</string>
+                        <length value="-5.554400000000001" units="Millimeters"/>
+                     </entry>
+                     <entry>
                         <string>FDR174c425b256e1063</string>
                         <length value="1.0" units="Millimeters"/>
+                     </entry>
+                     <entry>
+                        <string>FDR17b7628027d11c85</string>
+                        <length value="-4.349599999999995" units="Millimeters"/>
                      </entry>
                      <entry>
                         <string>FDR16bc4bf8025c7bea</string>
@@ -284,6 +292,10 @@
                         <length value="-2.2151999999999994" units="Millimeters"/>
                      </entry>
                      <entry>
+                        <string>FDR17b49d3ba73b96a7</string>
+                        <length value="-4.406399999999994" units="Millimeters"/>
+                     </entry>
+                     <entry>
                         <string>FDR17841fcd616c8774</string>
                         <length value="-5.671800000000001" units="Millimeters"/>
                      </entry>
@@ -292,8 +304,16 @@
                         <length value="-2.080199999999998" units="Millimeters"/>
                      </entry>
                      <entry>
+                        <string>FDR17be24bd96ba6fbc</string>
+                        <length value="-4.000099999999989" units="Millimeters"/>
+                     </entry>
+                     <entry>
                         <string>FDR1754dbf2e326a9f7</string>
                         <length value="-3.340899999999987" units="Millimeters"/>
+                     </entry>
+                     <entry>
+                        <string>FDR17b49de6fa31c955</string>
+                        <length value="-3.956499999999995" units="Millimeters"/>
                      </entry>
                      <entry>
                         <string>FDR16eea7fee0ebe983</string>
@@ -305,7 +325,7 @@
                      </entry>
                      <entry>
                         <string>F5</string>
-                        <length value="-6.620199999999997" units="Millimeters"/>
+                        <length value="-5.854699999999998" units="Millimeters"/>
                      </entry>
                      <entry>
                         <string>FDR174e6aef523757d0</string>
@@ -339,11 +359,11 @@
                   <probed-part-height-offsets>
                      <entry>
                         <string>R0805-1K</string>
-                        <length value="-6.895900000000001" units="Millimeters"/>
+                        <length value="-6.752399999999994" units="Millimeters"/>
                      </entry>
                      <entry>
                         <string>TEST-OBJECT</string>
-                        <length value="-5.454899999999991" units="Millimeters"/>
+                        <length value="-5.397099999999998" units="Millimeters"/>
                      </entry>
                   </probed-part-height-offsets>
                </nozzle>
@@ -355,8 +375,8 @@
                <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT166ef209918713f3" name="N1:PUMP" value-type="Boolean" value-type-confirmed="true" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV166208a07d8ab5cf" coordinated-before-actuate="true" coordinated-after-actuate="true" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
                   <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
                </actuator>
-               <actuator class="org.openpnp.machine.reference.ReferenceActuator" axis-X-id="AXS1650881a8eb5581a" axis-Y-id="AXS1650881a8edee6a3" axis-Z-id="AXS1650881a8ee18a87" axis-rotation-id="AXS1650881a8f6b1746" id="ACT16c5694a65e2b731" name="N1:PUSH_PULL" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV166208a07d8ab5cf" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
-                  <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+               <actuator class="org.openpnp.machine.reference.ReferenceActuator" axis-X-id="AXS1650881a8eb5581a" axis-Y-id="AXS1650881a8edee6a3" axis-Z-id="AXS1650881a8ee18a87" axis-rotation-id="AXS1650881a8f6b1746" id="ACT16c5694a65e2b731" name="N1:PUSH_PULL" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV166208a07d8ab5cf" coordinated-before-actuate="true" coordinated-after-actuate="true" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
+                  <head-offsets units="Millimeters" x="-79.8" y="6.35" z="0.0" rotation="0.0"/>
                </actuator>
                <actuator class="org.openpnp.machine.reference.ReferenceActuator" axis-X-id="AXS1650881a8eb5581a" axis-Y-id="AXS1650881a8edee6a3" axis-Z-id="AXS1650881a8ee18a87" axis-rotation-id="AXS1650881a8f6b1746" id="ACT16c828faca716e00" name="N1:PROBE" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV166208a07d8ab5cf" coordinated-before-actuate="true" coordinated-after-actuate="true" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
                   <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
@@ -366,12 +386,12 @@
                </actuator>
             </actuators>
             <cameras>
-               <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" axis-X-id="AXS1650881a8eb5581a" axis-Y-id="AXS1650881a8edee6a3" axis-Z-id="AXS16d3332147d1acdf" axis-rotation-id="AXS16d333200725688f" id="CAM166d69a3bb6fa745" name="headcam" looking="Down" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="true" enable-units-per-pixel-3-d="true" auto-view-plane-z="false" max-relative-motion="0.05" min-motion-template-match-score="0.9" min-contrast-range="16.0" settle-method="Motion" settle-time-ms="250" settle-timeout-ms="600" settle-threshold="1.0" settle-debounce="2" settle-full-color="false" settle-gaussian-blur="5" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="true" fps="15.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="1.327883218773681" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0969865987284133" green-balance="1.1044682246903983" blue-balance="1.0" red-gamma="0.9637715391975015" green-gamma="0.9478617390770449" blue-gamma="1.0909789592903714" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="USB 2.0 PC Cam \\?\usb#vid_5149&amp;pid_13d3&amp;mi_00#8&amp;2636c20&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="0" freeze-properties="false">
-                  <units-per-pixel units="Millimeters" x="0.0587315983680415" y="0.05893955041082162" z="-24.354800000000008" rotation="0.0"/>
-                  <units-per-pixel-secondary units="Millimeters" x="0.049757942452536466" y="0.049606932005032564" z="-14.399499999999998" rotation="0.0"/>
+               <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" axis-X-id="AXS1650881a8eb5581a" axis-Y-id="AXS1650881a8edee6a3" axis-Z-id="AXS179588d5f8e14ff0" axis-rotation-id="AXS179588d5f906b1ea" id="CAM166d69a3bb6fa745" name="headcam" looking="Down" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="true" enable-units-per-pixel-3-d="true" auto-view-plane-z="false" max-relative-motion="0.05" min-motion-template-match-score="0.9" min-contrast-range="16.0" settle-method="Motion" settle-time-ms="250" settle-timeout-ms="600" settle-threshold="1.0" settle-debounce="2" settle-full-color="false" settle-gaussian-blur="5" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="true" fps="15.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="1.686512485307366" flip-x="true" flip-y="true" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0969865987284133" green-balance="1.1044682246903983" blue-balance="1.0" red-gamma="0.9637715391975015" green-gamma="0.9478617390770449" blue-gamma="1.0909789592903714" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="USB 2.0 PC Cam \\?\usb#vid_5149&amp;pid_13d3&amp;mi_00#8&amp;2636c20&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="3" freeze-properties="true">
+                  <units-per-pixel units="Millimeters" x="0.040497396703180276" y="0.040497396703180276" z="-25.000000000000014" rotation="0.0"/>
+                  <units-per-pixel-secondary units="Millimeters" x="0.03590803429971287" y="0.03617916622458092" z="-15.299999999999999" rotation="0.0"/>
                   <camera-primary-z value="0.0" units="Millimeters"/>
                   <camera-secondary-z value="0.0" units="Millimeters"/>
-                  <default-z value="-24.354800000000008" units="Millimeters"/>
+                  <default-z value="-25.000000000000014" units="Millimeters"/>
                   <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
                   <roaming-radius value="0.0" units="Millimeters"/>
                   <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
@@ -379,9 +399,9 @@
                      <camera-matrix length="9">0.0, 0.0, 4.9E-324, 0.0, 0.0, 4.9E-324, 1.5E-323, 3.881988644547E-311, 1.646884E-318</camera-matrix>
                      <distortion-coefficients length="5">0.0, 0.0, 0.0, 0.0, 1.9934401931586978E-307</distortion-coefficients>
                   </calibration>
-                  <advanced-calibration enabled="true" overriding-old-transforms-and-distortion-correction-settings="true" valid="true" data-available="true" alpha-percent="100" rotation-error-z="1.1705487900028662" rotation-error-y="-1.3054056196785047" rotation-error-x="-1.9542022907620278" rms-error="2.032343202495661" desired-radial-lines-per-test-pattern="32" test-pattern-fill-fraction="0.9" walking-loop-gain="0.5" approximate-camera-f="844.7545016620247" mirrored="1.0" apparent-motion-direction="-1.0" width-fov="32.718579054584595" height-fov="24.67772836728788" virtual-width-fov="34.978761199671695" virtual-height-fov="28.29627172660777" disable-tilt-correction="false" disable-distortion-correction="false" disable-tangential-distortion-correction="true" version="1.5" raw-cropped-image-width="640" raw-cropped-image-height="480">
-                     <camera-matrix length="9">1090.1256470868516, 0.0, 319.5, 0.0, 1097.163103625137, 239.5, 0.0, 0.0, 1.0</camera-matrix>
-                     <distortion-coefficients length="5">0.6536772159046706, -9.14944274374176, 0.0, 0.0, 50.8972162977573</distortion-coefficients>
+                  <advanced-calibration enabled="false" overriding-old-transforms-and-distortion-correction-settings="false" valid="false" data-available="true" alpha-percent="100" rotation-error-z="2.6433228410586715" rotation-error-y="1.2270502172816558" rotation-error-x="1.4371147143040828" rms-error="2.6186704243692227" desired-radial-lines-per-test-pattern="32" test-pattern-fill-fraction="0.9" walking-loop-gain="0.5" approximate-camera-f="269.86318700835" mirrored="1.0" apparent-motion-direction="-1.0" width-fov="32.003801349342275" height-fov="24.171551866829027" virtual-width-fov="34.231388765552616" virtual-height-fov="27.122131450369043" disable-tilt-correction="false" disable-distortion-correction="false" disable-tangential-distortion-correction="true" version="1.5" raw-cropped-image-width="1280" raw-cropped-image-height="1024">
+                     <camera-matrix length="9">304.5452382424419, 0.0, 382.5, 0.0, 235.8809665243856, 299.5, 0.0, 0.0, 1.0</camera-matrix>
+                     <distortion-coefficients length="5">-0.24938535449808208, -0.006852366207287083, 0.0, 0.0, 0.0027551872295258455</distortion-coefficients>
                      <pipeline>
                         <stages>
                            <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="image" enabled="true" default-light="true" settle-option="SettleFullArea" count="1"/>
@@ -389,30 +409,27 @@
                            <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertModelToKeyPoints" name="results" enabled="true" model-stage-name="detect_circle"/>
                         </stages>
                      </pipeline>
-                     <virtual-camera-matrix length="9">952.093708242275, 0.0, 299.90277476407823, 0.0, 952.093708242275, 239.5007074152152, 0.0, 0.0, 1.0</virtual-camera-matrix>
-                     <rectification-matrix length="9">0.9995318808386451, 0.01963994898476741, 0.023462000651510977, -0.020423164965351796, 0.999225730456605, 0.033627668266241396, -0.02280083205360755, -0.034120498034628174, 1.0</rectification-matrix>
-                     <vector-from-mach-to-phy-cam-in-mach-ref-frame length="3">77.40913480393313, 203.0238595309366, 40.93454672567868</vector-from-mach-to-phy-cam-in-mach-ref-frame>
-                     <unit-vector-phy-cam-Z-in-mach-ref-frame length="3">0.02346027940628203, -0.03362841091505011, -0.9991590190102413</unit-vector-phy-cam-Z-in-mach-ref-frame>
-                     <vector-from-mach-to-vir-cam-in-mach-ref-frame length="3">77.40913480393313, 203.0238595309366, 40.98950003980124</vector-from-mach-to-vir-cam-in-mach-ref-frame>
-                     <vector-from-phy-cam-to-desired-principal-point-in-phy-cam-ref-frame length="3">-0.022800830114101837, -0.03412049610331251, 1.0</vector-from-phy-cam-to-desired-principal-point-in-phy-cam-ref-frame>
+                     <virtual-camera-matrix length="9">1243.7485416179065, 0.0, 382.65498325375006, 0.0, 1243.7485416179065, 299.5006365478021, 0.0, 0.0, 1.0</virtual-camera-matrix>
+                     <rectification-matrix length="9">-0.9987069276498118, -0.045567350694384855, -0.02254172140582255, 0.04610773712345315, -0.9986465904274548, -0.024066295213684998, -0.021426081933974217, -0.02508764592992805, 1.0</rectification-matrix>
+                     <vector-from-mach-to-phy-cam-in-mach-ref-frame length="3">74.62606118690513, 206.92981951255342, 39.76917232343904</vector-from-mach-to-phy-cam-in-mach-ref-frame>
+                     <unit-vector-phy-cam-Z-in-mach-ref-frame length="3">-0.022541551558384873, 0.024065781400211143, -0.9994562104559348</unit-vector-phy-cam-Z-in-mach-ref-frame>
+                     <vector-from-mach-to-vir-cam-in-mach-ref-frame length="3">74.62606118690513, 206.92981951255342, 39.804575510872645</vector-from-mach-to-vir-cam-in-mach-ref-frame>
+                     <vector-from-phy-cam-to-desired-principal-point-in-phy-cam-ref-frame length="3">-0.021426080622722464, -0.025087644810359407, 1.0</vector-from-phy-cam-to-desired-principal-point-in-phy-cam-ref-frame>
                      <saved-test-pattern-3-d-points-list length="2">
-                        <double- length="206">-75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -75.83542869516779, -205.1957825155704, -24.354800000000008, -72.66956738210234, -204.64288680816514, -24.354800000000008, -72.57795750282781, -205.64958673670802, -24.354800000000008, -74.40236480060663, -207.5366626479768, -24.354800000000008, -75.01040261424244, -207.68586290465365, -24.354800000000008, -73.37084137233529, -206.9708464945467, -24.354800000000008, -78.4266054672427, -206.6548512572136, -24.354800000000008, -78.68362184485864, -203.81946647314575, -24.354800000000008, -77.45615313253563, -207.34089996291024, -24.354800000000008, -78.3078362760549, -203.42729889899138, -24.354800000000008, -74.81835818529902, -202.82120529405665, -24.354800000000008, -78.77003700246166, -206.22157400237867, -24.354800000000008, -73.69700632543848, -203.35211295520318, -24.354800000000008, -72.99225658060652, -206.57863476554996, -24.354800000000008, -77.28749765873039, -202.8613402926759, -24.354800000000008, -75.44425951112675, -202.6899826473447, -24.354800000000008, -79.11141231268735, -205.2524222476281, -24.354800000000008, -77.83629541371691, -203.1037361145148, -24.354800000000008, -76.04868356940422, -202.653608424811, -24.354800000000008, -76.2475178806144, -207.69877108475242, -24.354800000000008, -73.24614442746297, -203.73476363675516, -24.354800000000008, -79.00149482451165, -205.74809744890783, -24.354800000000008, -79.09339029086894, -204.7448982977768, -24.354800000000008, -76.86976487694659, -207.56529662501669, -24.354800000000008, -72.9023335337249, -204.16760846141796, -24.354800000000008, -78.94857612157706, -204.26403786613025, -24.354800000000008, -72.72436502288349, -206.13221651521104, -24.354800000000008, -76.67999286546146, -202.7089061137256, -24.354800000000008, -72.55928719501789, -205.14082836657244, -24.354800000000008, -75.64783659500253, -207.7381647126246, -24.354800000000008, -74.22930698484943, -203.04372776196757, -24.354800000000008, -73.84840956245344, -207.29546399160654, -24.354800000000008, -77.98318265202464, -207.0328763112768, -24.354800000000008, -82.15514901750495, -206.33470998208813, -24.354800000000008, -71.88973672160743, -209.41049701710833, -24.354800000000008, -73.80892133225413, -200.44441556604963, -24.354800000000008, -78.66143491121183, -200.50117256217177, -24.354800000000008, -75.40410225852698, -210.2798889761773, -24.354800000000008, -75.08559526622155, -200.180023344107, -24.354800000000008, -76.69905463836292, -210.1961713774873, -24.354800000000008, -69.6211948769307, -207.08613817170595, -24.354800000000008, -69.31858246876138, -206.091898846268, -24.354800000000008, -81.67914663064337, -207.28674897763753, -24.354800000000008, -79.76573029275346, -200.97325155286296, -24.354800000000008, -71.59806537664718, -201.48113498243117, -24.354800000000008, -70.6843138385996, -202.24585554305082, -24.354800000000008, -77.89635299007458, -209.93709295697295, -24.354800000000008, -69.28551201421091, -205.06204217046977, -24.354800000000008, -76.24858935508333, -200.11130663185747, -24.354800000000008, -82.38554515089523, -205.327785102371, -24.354800000000008, -73.03712094879337, -209.89957292203195, -24.354800000000008, -77.5433767789388, -200.22521001857785, -24.354800000000008, -70.16138514693763, -207.9773014526342, -24.354800000000008, -82.06201430596914, -203.3329500394308, -24.354800000000008, -80.75246830313807, -201.63566787519065, -24.354800000000008, -70.93520936240725, -208.76984589911896, -24.354800000000008, -81.51444405908539, -202.42073706201677, -24.354800000000008, -82.35191056853604, -204.29737407973892, -24.354800000000008, -80.98581624051113, -208.14638232923807, -24.354800000000008, -72.65522689246767, -200.87671509759224, -24.354800000000008, -80.08118286876842, -208.90449500818306, -24.354800000000008, -79.03542072064702, -209.50551537852883, -24.354800000000008, -74.17701348110675, -210.1745840186227, -24.354800000000008, -69.51824043900997, -204.05003543017384, -24.354800000000008, -69.9908879130772, -203.1059755931955, -24.354800000000008, -85.16583497417005, -202.38045347264867, -24.354800000000008, -78.7121203415257, -212.36478656438146, -24.354800000000008, -85.64939074321036, -205.48570445141152, -24.354800000000008, -78.32353788168446, -197.7281465313334, -24.354800000000008, -77.08976312849792, -212.70203197021962, -24.354800000000008, -66.06265828755892, -206.5547428619149, -24.354800000000008, -72.88450265946972, -198.04405183547294, -24.354800000000008, -80.00392022015329, -198.13119426371577, -24.354800000000008, -67.13613324052676, -201.96178647049976, -24.354800000000008, -83.47236039824605, -209.70815842535794, -24.354800000000008, -67.37200468254647, -209.42735462566662, -24.354800000000008, -84.51895239955749, -208.45161445858923, -24.354800000000008, -85.614497548168, -203.87549590911505, -24.354800000000008, -73.50296105271744, -212.68611549984286, -24.354800000000008, -76.41918753976817, -197.56887236031355, -24.354800000000008, -83.13694035604885, -199.79595811126896, -24.354800000000008, -69.59598144572773, -199.54651708485255, -24.354800000000008, -80.41190213409469, -211.75710446079722, -24.354800000000008, -74.65968322534644, -197.67895019276745, -24.354800000000008, -68.19251981100594, -200.6889984152343, -24.354800000000008, -66.01361219800974, -204.96615926423792, -24.354800000000008, -66.38542746092476, -203.40946482042307, -24.354800000000008, -81.6018298191865, -198.79593901477162, -24.354800000000008, -68.54691994727565, -210.60658511919155, -24.354800000000008, -75.2788697513899, -212.82212815695075, -24.354800000000008, -66.53238561891729, -208.07082525714944, -24.354800000000008, -82.08489897390406, -210.83807831308877, -24.354800000000008, -71.78835610555524, -212.29698510647805, -24.354800000000008, -70.03280633694516, -211.57767930426132, -24.354800000000008, -71.19986445483696, -198.65734800428353, -24.354800000000008, -85.2679597215944, -207.02349715723216, -24.354800000000008, -84.31498030004923, -200.98421589940594, -24.354800000000008, -70.55905193387233, -214.69976284400693, -24.354800000000008, -63.45043213227524, -209.069756076351, -24.354800000000008, -72.79749596384718, -215.19366113265474, -24.354800000000008, -83.92999380115938, -212.8665768764528, -24.354800000000008, -88.24849177732406, -201.38297135151817, -24.354800000000008, -79.57341361016616, -214.78140561182855, -24.354800000000008, -88.33732866644554, -207.807571133806, -24.354800000000008, -65.76369217641096, -199.0746351046784, -24.354800000000008, -81.21619635269711, -195.72381339615464, -24.354800000000008, -64.39116213944544, -200.6746964561443, -24.354800000000008, -87.07883506251333, -199.50393859615704, -24.354800000000008, -85.4169381288186, -197.8788625192039, -24.354800000000008, -88.8841173267464, -203.5044446517942, -24.354800000000008, -85.82744352401836, -211.38599770039824, -24.354800000000008, -74.31177348093, -195.20612264699957, -24.354800000000008, -83.29300355373049, -196.55296322264962, -24.354800000000008, -75.026982968078, -215.3132048263947, -24.354800000000008, -63.310951101823264, -202.6360196984415, -24.354800000000008, -81.62000845350707, -214.07101093537287, -24.354800000000008, -68.29955832027989, -213.80243468180748, -24.354800000000008, -87.27361603557183, -209.72685690036135, -24.354800000000008, -77.4370826855533, -215.21338333231435, -24.354800000000008, -67.69620733997127, -197.54948808859584, -24.354800000000008, -62.79933994652204, -206.97176106232416, -24.354800000000008, -72.22686637925791, -195.5820256138333, -24.354800000000008, -78.96144627421128, -195.2358153791304, -24.354800000000008, -76.71049602945352, -195.14034914230515, -24.354800000000008, -62.75632943332202, -204.76626902134672, -24.354800000000008, -88.89796374611738, -205.73410434793084, -24.354800000000008, -64.62554995673902, -210.92767342035035, -24.354800000000008, -69.86812484791737, -196.38835677614412, -24.354800000000008, -66.24968130910975, -212.51140978798418, -24.354800000000008, -84.55492939489335, -194.7918062581775, -24.354800000000008, -76.79815964029545, -194.05397619918986, -24.354800000000008, -90.97585811121795, -208.75292278768242, -24.354800000000008, -64.07059325287112, -214.49668584679597, -24.354800000000008, -91.22609344791418, -203.2153759262507, -24.354800000000008, -75.11266490804039, -216.43910128814161, -24.354800000000008, -61.6937139946767, -199.33139032458752, -24.354800000000008, -82.57033643513842, -215.9421936024769, -24.354800000000008, -81.64928307909905, -194.43477164870063, -24.354800000000008, -67.03417086233836, -215.69859470064736, -24.354800000000008, -89.73435989513068, -197.90551521741514, -24.354800000000008, -78.94242125195497, -194.16388740346983, -24.354800000000008, -60.381163581500815, -204.5497372423739, -24.354800000000008, -63.445630428686776, -197.36637932932643, -24.354800000000008, -71.94969416790939, -194.206720190294, -24.354800000000008, -91.06008592216676, -200.37879970265277, -24.354800000000008, -72.58265822902754, -216.38623663427742, -24.354800000000008, -69.19849326213209, -194.57001467104377, -24.354800000000008, -69.9831429716732, -216.15887178755136, -24.354800000000008, -87.6617153660509, -195.93727798314586, -24.354800000000008, -89.90205800512348, -211.1467686492523, -24.354800000000008, -60.763767615104214, -201.72817568048444, -24.354800000000008, -66.0140912487441, -195.4343781729107, -24.354800000000008, -77.36017060142159, -216.45426219146034, -24.354800000000008, -88.11178256036224, -213.12116907225354, -24.354800000000008, -91.1849805447926, -205.9884491995976, -24.354800000000008, -60.49475327963372, -210.09323132937035, -24.354800000000008, -74.19566988597396, -194.0928552722763, -24.354800000000008, -79.77035776205632, -216.28560535424387, -24.354800000000008, -85.57693501413206, -214.9990477227058, -24.354800000000008, -61.92737931493819, -212.48140028289993, -24.354800000000008, -60.34447439346666, -207.26351763148404, -24.354800000000008, -86.37939665293187, -216.3896240328931, -24.354800000000008, -66.65691209509119, -216.5577357824072, -24.354800000000008, -62.688616966952864, -216.0226059170956, -24.354800000000008, -61.32940602098876, -195.5072548448362, -24.354800000000008, -88.6699592145837, -194.58692297087921, -24.354800000000008, -90.13113607068335, -215.04477609653745, -24.354800000000008, -65.27619894409212, -194.12559783095796, -24.354800000000008, -82.88407309117416, -216.84043796780938, -24.354800000000008, -91.52990055683566, -196.72742941092122, -24.354800000000008, -91.41867739512585, -212.2466124391596, -24.354800000000008, -59.97885555406808, -213.8258269568343, -24.354800000000008, -60.1752619840268, -198.3030187399337, -24.354800000000008, -91.4298385752649, -216.44337841785693, -24.354800000000008, -60.3335542596367, -194.09747353756683, -24.354800000000008</double->
-                        <double- length="206">-76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -76.13789072193474, -234.69253211218862, -14.399499999999998, -77.58765160687945, -232.87286201400622, -14.399499999999998, -74.12141117248805, -233.28604863600813, -14.399499999999998, -78.73950244861678, -235.3869173734752, -14.399499999999998, -78.16204917714906, -236.09275540951958, -14.399499999999998, -78.84579016249035, -234.15398204210658, -14.399499999999998, -76.56568123130381, -232.61084554766563, -14.399499999999998, -78.91958700630097, -234.56592114478747, -14.399499999999998, -77.75023797774558, -236.37100691636184, -14.399499999999998, -73.88615863812153, -235.97024659904505, -14.399499999999998, -75.19367266574545, -236.68491141287743, -14.399499999999998, -73.39425256901596, -234.393589864611, -14.399499999999998, -73.78412743501774, -233.61913006355286, -14.399499999999998, -73.35608661994887, -234.81672905112916, -14.399499999999998, -73.53853766931418, -233.9936395153954, -14.399499999999998, -75.01751972581901, -232.79394003215904, -14.399499999999998, -74.25445940915215, -236.27451240567234, -14.399499999999998, -73.60865981891098, -235.61825983267065, -14.399499999999998, -78.66744658845663, -233.76733145753866, -14.399499999999998, -77.09438006332525, -232.70327133482024, -14.399499999999998, -73.42958094711743, -235.22978688399252, -14.399499999999998, -74.696369227943, -236.515814925677, -14.399499999999998, -75.52853151975995, -232.65727165404377, -14.399499999999998, -76.25377665184405, -236.78660734822458, -14.399499999999998, -76.03573695092149, -232.59778026033754, -14.399499999999998, -78.88267910454373, -234.98633392586623, -14.399499999999998, -78.02707847278695, -233.1144377850601, -14.399499999999998, -76.76400418169624, -236.7245872896092, -14.399499999999998, -77.28036120969871, -236.58327614957807, -14.399499999999998, -75.7256797838013, -236.77570417751483, -14.399499999999998, -78.39187999346815, -233.41711843155366, -14.399499999999998, -74.538803183211, -233.00673586710425, -14.399499999999998, -78.49662505881197, -235.75987627797076, -14.399499999999998, -71.44207116224648, -232.53163416758713, -14.399499999999998, -75.3278878110366, -238.8601905190306, -14.399499999999998, -81.55465565117132, -233.61848742141865, -14.399499999999998, -72.12633847031431, -231.8623689297439, -14.399499999999998, -74.23582328652367, -238.67382353465246, -14.399499999999998, -70.57388749425134, -234.9312501247595, -14.399499999999998, -72.39117493779587, -237.8699171758751, -14.399499999999998, -70.7264203474048, -235.78303597836586, -14.399499999999998, -73.00766022635284, -231.28476410734652, -14.399499999999998, -77.32401819415514, -238.76881381581177, -14.399499999999998, -81.62108010958119, -235.30777511496976, -14.399499999999998, -79.89048561063888, -231.5191139327341, -14.399499999999998, -81.18077625524265, -232.81628002948963, -14.399499999999998, -77.03090575526728, -230.53300720054477, -14.399499999999998, -70.6538378289955, -234.080632960439, -14.399499999999998, -73.31301406980678, -238.3637765539743, -14.399499999999998, -74.89799407904, -230.62607653607608, -14.399499999999998, -76.37945689659381, -238.88016871125242, -14.399499999999998, -78.96145760953027, -231.0209844795865, -14.399499999999998, -79.26736960680657, -238.1001674232089, -14.399499999999998, -80.14768243033731, -237.5239008122402, -14.399499999999998, -70.95163647862856, -233.27042724989232, -14.399499999999998, -80.82641911543236, -236.8618821875318, -14.399499999999998, -81.328431340503, -236.1062284240566, -14.399499999999998, -71.09333270107051, -236.5661791638165, -14.399499999999998, -78.39178688027613, -238.4849957835584, -14.399499999999998, -71.6459073734939, -237.2595593966224, -14.399499999999998, -78.0534760661753, -230.7146793257182, -14.399499999999998, -81.70195486560984, -234.45605087603255, -14.399499999999998, -73.95993372010348, -230.8739860137563, -14.399499999999998, -80.6259128835922, -232.12159525541986, -14.399499999999998, -75.9534763181512, -230.50213898824262, -14.399499999999998, -67.79196687046179, -235.05273958975687, -14.399499999999998, -80.67364326378114, -239.88310551115683, -14.399499999999998, -75.86997296130886, -228.40655013466218, -14.399499999999998, -72.99252523968737, -228.92570093781205, -14.399499999999998, -84.48506006864021, -234.37484672025616, -14.399499999999998, -70.60706026713129, -239.51554098064966, -14.399499999999998, -82.01315021936789, -239.04428052086706, -14.399499999999998, -68.40764690566516, -232.46939279933292, -14.399499999999998, -81.63652448385609, -229.8506979563667, -14.399499999999998, -77.34365385752021, -228.44194657250893, -14.399499999999998, -83.09892442497403, -238.0285215297061, -14.399499999999998, -69.44355754937737, -238.5859737719057, -14.399499999999998, -74.43512338360873, -228.56624249918386, -14.399499999999998, -67.92399905387077, -233.72512031625968, -14.399499999999998, -70.19606355975158, -230.38881967562165, -14.399499999999998, -76.49230593421287, -240.97439799103017, -14.399499999999998, -77.79928786577048, -240.82680524071515, -14.399499999999998, -74.86611892880921, -240.93840065635982, -14.399499999999998, -84.25485746359888, -233.0562913963765, -14.399499999999998, -71.52033497186679, -229.5406097799335, -14.399499999999998, -78.82297801673842, -228.68310353205345, -14.399499999999998, -73.43860447453204, -240.69981756670057, -14.399499999999998, -68.03043999937292, -236.3577114397505, -14.399499999999998, -79.39117052207834, -240.42354647979403, -14.399499999999998, -68.59324725538367, -237.53766009045262, -14.399499999999998, -80.30450812424432, -229.1567487105667, -14.399499999999998, -84.34479333143486, -235.68597421395916, -14.399499999999998, -83.67458542238028, -231.83531559885938, -14.399499999999998, -82.81972832424384, -230.787066817928, -14.399499999999998, -72.02005954400975, -240.2473291082449, -14.399499999999998, -69.18156806341644, -231.3520641334735, -14.399499999999998, -83.86836117240215, -236.91420480845184, -14.399499999999998, -87.26838038920415, -234.3234132876519, -14.399499999999998, -74.64397936526811, -243.00602825862416, -14.399499999999998, -68.36892267242516, -228.8420704194249, -14.399499999999998, -78.34101867916735, -242.87417526045135, -14.399499999999998, -65.33540552592922, -236.93513915475424, -14.399499999999998, -70.84576161128145, -242.1727835457908, -14.399499999999998, -85.29359799745325, -239.275669106807, -14.399499999999998, -66.9556204935037, -230.1363421821501, -14.399499999999998, -86.36394517513573, -237.7940617163975, -14.399499999999998, -70.2484979323251, -227.69937711875875, -14.399499999999998, -65.0087648518028, -235.12728326358496, -14.399499999999998, -87.05476134021245, -236.1110616349422, -14.399499999999998, -75.76780433681608, -226.361784580149, -14.399499999999998, -67.28715283632563, -239.95509250660314, -14.399499999999998, -72.75162144074108, -242.74663135585004, -14.399499999999998, -79.6194926284411, -226.65696476484837, -14.399499999999998, -74.0522609270895, -226.49555854572674, -14.399499999999998, -68.96355052398224, -241.24128928978288, -14.399499999999998, -81.52585415407873, -227.24727658697387, -14.399499999999998, -83.84112361358066, -240.59046700934246, -14.399499999999998, -65.90123800046769, -231.6064590192429, -14.399499999999998, -83.2647912809606, -228.11690253982113, -14.399499999999998, -65.20495637291607, -233.33041791905035, -14.399499999999998, -66.13900739055988, -238.57574933860454, -14.399499999999998, -82.04683554789743, -241.6810678953123, -14.399499999999998, -76.57696621800588, -243.02589313577974, -14.399499999999998, -86.94476785094443, -232.46421782537044, -14.399499999999998, -72.05756788190646, -226.96788002210477, -14.399499999999998, -77.59131453657645, -226.40685482812478, -14.399499999999998, -84.98142408076997, -229.4227463585051, -14.399499999999998, -86.14809599925056, -230.82449574177858, -14.399499999999998, -80.2461257174432, -242.4034272502902, -14.399499999999998, -73.92564736087041, -225.44119736768954, -14.399499999999998, -87.37613991776968, -240.6266326528451, -14.399499999999998, -77.65490951658224, -225.4555407791411, -14.399499999999998, -63.05551397845344, -235.19920848117297, -14.399499999999998, -65.2280584190875, -241.4074222041903, -14.399499999999998, -63.16002942380401, -232.92371749299375, -14.399499999999998, -89.01546860812459, -236.6103937299942, -14.399499999999998, -75.73367301022174, -225.40487439647615, -14.399499999999998, -71.5829623034827, -225.70054827369583, -14.399499999999998, -72.35772941699392, -243.8585712773951, -14.399499999999998, -66.77927055644447, -227.15111729284314, -14.399499999999998, -89.02299180171268, -231.95634065619598, -14.399499999999998, -80.66689457397584, -243.76637050743906, -14.399499999999998, -83.10351820179602, -243.46070708232315, -14.399499999999998, -74.4144543615947, -243.99831866849635, -14.399499999999998, -70.024644208685, -243.5840076513901, -14.399499999999998, -89.08952028134503, -234.3478694895512, -14.399499999999998, -63.11345064470957, -237.45754482488397, -14.399499999999998, -67.3995305893946, -243.0077252715049, -14.399499999999998, -64.83815184447502, -228.816338960585, -14.399499999999998, -79.91268317795175, -225.58535961190236, -14.399499999999998, -63.494311079045325, -230.60027960267269, -14.399499999999998, -85.51663790726442, -242.23283700361173, -14.399499999999998, -69.12956656873989, -225.99903873872844, -14.399499999999998, -88.71849707149791, -238.8665056961739, -14.399499999999998, -82.18069935045315, -225.89670433914068, -14.399499999999998, -88.49937299845115, -229.65533431775742, -14.399499999999998, -76.60194416127021, -244.00912286092796, -14.399499999999998, -78.52828410315256, -243.94105461693675, -14.399499999999998, -84.83899329598428, -226.35550484758284, -14.399499999999998, -86.99824108803188, -227.93698366550876, -14.399499999999998, -63.730852742300996, -239.67529875665275, -14.399499999999998, -66.79776297880879, -243.94466069062543, -14.399499999999998, -89.00917927430191, -241.9668696522414, -14.399499999999998, -62.74070409517245, -240.36884596654443, -14.399499999999998, -63.126952289476904, -227.4703133729769, -14.399499999999998, -86.695000452528, -243.74570556874028, -14.399499999999998, -65.53436776195794, -225.7143130580348, -14.399499999999998, -85.33451322343113, -225.52781120895222, -14.399499999999998, -88.97569971952841, -226.42142881957986, -14.399499999999998, -83.41539775323945, -244.31652466050568, -14.399499999999998, -63.29103376119143, -242.952329634448, -14.399499999999998, -68.79085420198949, -225.18610804069647, -14.399499999999998, -89.64985124936958, -225.64771585371258, -14.399499999999998, -87.02162784708868, -244.4833452992856, -14.399499999999998, -62.56676674473815, -243.8576830805115, -14.399499999999998</double->
+                        <double- length="32">-66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004, -66.68999999999991, -212.25000000000003, -25.300000000000004</double->
+                        <double- length="34">-26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -26.81199999999999, -212.31000000000003, -13.3, -28.916388300838932, -218.29995619188568, -13.3, -24.47111078236058, -206.71489659861166, -13.3</double->
                      </saved-test-pattern-3-d-points-list>
                      <saved-test-pattern-image-points-list length="2">
-                        <double- length="206">319.125, 239.875, 322.375, 239.75, 322.375, 239.75, 322.375, 239.75, 322.375, 239.875, 322.125, 240.875, 319.0, 240.375, 322.125, 240.875, 322.25, 240.0, 321.625, 240.875, 319.75, 239.0, 319.125, 238.875, 319.125, 240.0, 321.875, 240.75, 321.75, 240.875, 319.375, 239.0, 319.125, 238.875, 319.125, 238.875, 319.125, 240.0, 319.125, 239.875, 322.125, 240.875, 319.5, 239.0, 322.125, 240.875, 319.5, 238.875, 319.25, 240.375, 322.375, 239.875, 319.125, 239.875, 322.375, 239.75, 322.25, 240.0, 319.125, 238.875, 322.125, 240.875, 319.125, 240.0, 372.625, 231.875, 373.625, 248.75, 345.25, 279.5, 331.75, 281.0, 360.0, 269.75, 277.875, 263.875, 274.25, 216.25, 294.75, 274.875, 280.875, 209.625, 336.5, 200.0, 272.125, 256.5, 355.25, 209.25, 366.75, 264.375, 295.0, 199.75, 329.25, 198.375, 266.625, 240.0, 285.25, 203.5, 316.625, 197.0, 315.5, 281.875, 363.125, 214.875, 268.25, 248.5, 267.375, 231.875, 304.875, 279.0, 369.25, 222.375, 269.5, 222.0, 371.5, 255.875, 309.75, 198.375, 374.25, 240.25, 321.125, 281.875, 346.375, 203.875, 351.5, 275.875, 285.5, 269.75, 214.0, 255.375, 384.25, 311.25, 354.25, 159.5, 275.75, 159.25, 327.875, 325.625, 332.375, 154.75, 306.5, 323.75, 423.25, 272.375, 428.25, 255.25, 221.5, 271.75, 252.5, 166.0, 391.5, 178.0, 406.875, 191.625, 281.75, 318.0, 429.125, 238.0, 313.75, 153.0, 210.5, 237.875, 368.5, 320.0, 295.5, 155.0, 413.75, 287.0, 216.375, 204.75, 238.75, 177.875, 400.5, 301.875, 225.375, 190.75, 211.5, 221.875, 232.625, 288.0, 374.125, 167.75, 249.25, 301.25, 262.5, 310.0, 348.5, 324.0, 425.75, 221.0, 418.25, 206.25, 163.375, 187.875, 271.5, 359.75, 154.625, 239.0, 282.375, 111.75, 299.5, 366.0, 483.5, 265.875, 374.5, 119.75, 253.625, 116.875, 470.875, 188.625, 186.5, 311.0, 460.625, 312.625, 172.875, 290.0, 155.5, 211.875, 355.625, 366.0, 315.5, 110.0, 194.25, 143.5, 425.625, 143.875, 237.75, 347.25, 340.625, 111.875, 449.5, 163.875, 484.75, 238.875, 479.125, 212.5, 220.625, 127.0, 440.25, 332.25, 325.5, 368.0, 475.25, 291.5, 214.25, 331.5, 384.75, 360.25, 414.75, 348.375, 398.875, 129.625, 160.625, 267.0, 178.375, 164.75, 404.375, 400.75, 526.875, 309.625, 367.125, 408.875, 182.0, 365.375, 109.625, 169.875, 251.875, 398.75, 106.625, 277.875, 491.5, 136.75, 232.25, 74.0, 514.125, 164.5, 125.75, 136.875, 160.125, 108.875, 98.625, 206.0, 149.75, 339.0, 347.125, 68.875, 196.75, 88.25, 332.875, 410.75, 535.625, 200.875, 220.625, 386.625, 443.25, 387.5, 124.875, 311.75, 288.25, 407.25, 458.875, 111.0, 538.625, 274.0, 386.25, 77.25, 267.25, 67.5, 311.375, 67.875, 540.25, 235.0, 97.625, 243.875, 506.25, 340.25, 426.25, 91.5, 478.25, 365.0, 175.5, 55.875, 305.75, 48.25, 60.75, 294.5, 514.75, 399.25, 57.5, 198.0, 326.875, 428.875, 560.625, 142.0, 204.5, 417.75, 225.375, 52.75, 464.25, 419.5, 84.75, 108.875, 272.5, 49.75, 580.75, 231.875, 531.5, 109.875, 391.5, 53.75, 60.875, 151.0, 373.625, 429.875, 438.625, 60.0, 413.875, 425.5, 116.25, 75.5, 79.375, 335.75, 575.875, 185.5, 488.25, 75.5, 289.375, 428.0, 105.375, 367.875, 57.75, 245.25, 576.625, 327.875, 349.25, 49.5, 247.625, 423.875, 153.375, 401.875, 551.625, 366.0, 580.5, 278.0, 138.875, 424.75, 469.75, 433.25, 537.5, 425.75, 573.125, 78.875, 103.625, 51.875, 74.25, 401.25, 506.5, 54.0, 198.875, 432.625, 53.375, 87.875, 52.5, 352.0, 584.625, 390.875, 586.875, 126.625, 50.875, 423.5, 586.5, 53.75</double->
-                        <double- length="206">318.5, 240.375, 322.75, 240.125, 322.5, 241.5, 318.75, 238.875, 322.5, 241.625, 322.75, 239.875, 322.625, 240.5, 322.75, 239.875, 318.75, 238.875, 321.875, 241.25, 318.5, 240.375, 318.875, 239.125, 322.75, 239.875, 322.5, 241.625, 318.75, 238.875, 318.5, 240.375, 318.5, 240.625, 322.75, 240.125, 321.5, 239.625, 319.5, 240.625, 318.5, 240.625, 318.625, 240.5, 322.5, 241.625, 318.75, 238.875, 322.5, 241.375, 318.5, 240.625, 318.625, 239.875, 319.375, 239.125, 322.75, 239.875, 319.375, 239.125, 322.625, 239.875, 322.5, 241.5, 289.125, 202.875, 358.25, 212.375, 269.5, 253.625, 281.125, 266.5, 267.75, 227.25, 314.875, 199.125, 266.5, 235.625, 284.5, 271.625, 361.875, 266.625, 335.625, 279.875, 372.875, 235.25, 365.125, 218.0, 373.375, 243.875, 369.875, 227.125, 344.875, 203.125, 354.625, 272.125, 367.875, 258.25, 268.875, 220.625, 304.375, 199.875, 371.625, 250.5, 349.875, 276.875, 330.375, 199.875, 319.75, 282.0, 322.75, 198.875, 266.75, 243.875, 284.625, 207.0, 305.25, 279.625, 298.75, 278.125, 329.375, 282.125, 277.125, 214.0, 354.5, 207.625, 274.5, 259.625, 416.375, 199.5, 331.875, 323.125, 212.75, 215.875, 399.0, 183.125, 358.125, 320.25, 428.875, 245.625, 391.75, 304.125, 425.375, 262.5, 381.75, 172.875, 292.375, 320.125, 211.125, 248.5, 242.625, 173.875, 220.5, 200.375, 301.375, 155.875, 427.375, 229.875, 377.125, 314.875, 348.25, 159.625, 316.75, 323.875, 266.5, 165.625, 252.875, 305.25, 235.375, 293.25, 425.0, 214.0, 226.5, 280.5, 216.5, 264.625, 417.75, 279.875, 275.125, 315.875, 406.25, 293.375, 280.25, 158.875, 209.875, 231.125, 366.5, 164.625, 232.125, 186.875, 324.5, 156.625, 484.5, 250.625, 229.25, 341.25, 325.75, 113.875, 383.0, 125.125, 153.75, 228.125, 430.5, 338.625, 202.125, 324.875, 472.875, 198.25, 206.5, 138.625, 295.5, 113.375, 180.5, 302.375, 449.375, 321.125, 358.25, 118.25, 482.0, 222.0, 437.625, 155.5, 313.75, 365.875, 286.625, 362.0, 345.25, 365.375, 158.5, 203.375, 416.0, 139.375, 270.0, 118.125, 373.5, 361.5, 479.125, 276.875, 254.625, 352.875, 467.125, 298.875, 240.25, 127.0, 156.25, 256.625, 170.5, 177.375, 188.375, 156.25, 401.875, 353.125, 457.375, 175.25, 165.375, 281.25, 96.25, 225.25, 344.5, 406.375, 480.125, 125.875, 275.125, 403.375, 532.5, 289.625, 419.875, 390.625, 135.75, 326.75, 502.875, 151.375, 114.375, 296.125, 437.875, 101.125, 540.0, 251.125, 100.5, 261.625, 328.25, 72.375, 492.375, 347.25, 382.625, 401.875, 254.5, 76.625, 366.625, 76.125, 458.125, 372.25, 215.375, 87.125, 164.625, 354.875, 523.5, 181.625, 179.75, 103.875, 537.125, 214.875, 515.625, 322.0, 200.375, 375.875, 311.5, 406.625, 103.375, 189.875, 401.875, 84.375, 290.75, 72.125, 139.125, 128.875, 115.5, 156.625, 236.625, 392.0, 364.625, 53.875, 91.5, 354.375, 295.0, 53.125, 579.0, 253.125, 532.875, 377.125, 578.375, 207.25, 60.25, 271.875, 328.75, 52.875, 411.875, 60.125, 393.875, 425.125, 508.0, 91.125, 61.25, 179.25, 222.0, 418.0, 178.5, 411.375, 348.25, 425.875, 440.625, 420.0, 59.25, 227.25, 577.125, 300.875, 488.75, 408.625, 546.25, 125.875, 248.875, 54.5, 572.875, 162.125, 130.125, 386.0, 460.75, 67.0, 65.5, 317.375, 202.25, 59.25, 71.875, 130.875, 305.375, 425.25, 270.625, 423.875, 148.25, 67.25, 103.25, 96.25, 568.0, 344.0, 505.5, 428.5, 58.5, 379.625, 583.75, 357.625, 581.625, 98.75, 105.25, 415.875, 534.0, 62.125, 138.375, 50.0, 62.875, 65.125, 171.375, 429.125, 575.75, 409.875, 467.875, 50.375, 49.125, 48.875, 98.0, 430.0, 585.5, 429.375</double->
+                        <double- length="32">329.125, 248.125, 327.75, 249.125, 327.875, 249.125, 327.75, 249.125, 327.875, 249.125, 327.75, 247.625, 329.25, 247.875, 327.875, 247.625, 327.875, 249.125, 328.375, 247.625, 328.75, 249.5, 328.875, 249.625, 329.0, 248.0, 328.25, 247.5, 327.875, 247.625, 328.875, 249.625, 328.875, 249.625, 328.875, 249.625, 329.25, 247.875, 328.875, 248.125, 327.875, 247.25, 328.75, 249.5, 327.875, 247.375, 328.875, 249.625, 329.125, 247.875, 327.75, 249.125, 329.125, 248.375, 327.75, 249.125, 327.75, 248.875, 328.875, 249.625, 327.75, 247.5, 329.125, 247.875</double->
+                        <double- length="34">330.25, 249.25, 328.25, 250.25, 328.375, 248.5, 329.75, 251.0, 328.375, 248.5, 328.25, 250.5, 328.125, 249.875, 328.25, 250.5, 330.0, 251.0, 328.625, 248.625, 330.25, 249.25, 329.875, 250.875, 328.25, 250.375, 328.375, 248.5, 330.125, 250.875, 330.25, 249.25, 330.125, 249.0, 328.25, 250.25, 329.25, 250.625, 329.125, 248.875, 330.125, 249.0, 330.125, 249.0, 328.375, 248.5, 330.0, 250.75, 328.375, 248.625, 330.125, 249.0, 330.0, 249.75, 329.75, 250.75, 328.25, 250.5, 329.75, 250.75, 328.25, 250.375, 328.625, 248.5, 192.375, 307.875, 493.0, 245.625</double->
                      </saved-test-pattern-image-points-list>
                      <modeled-test-pattern-image-points-list length="2">
-                        <double- length="206">320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 320.1875363795997, 239.08556590807203, 373.2048382039452, 230.84718909372273, 374.36340492934517, 247.7752997138361, 343.27200439787805, 278.80863143867396, 333.08879015826335, 281.11155872544816, 360.6624222910255, 269.6667576332645, 276.420081371563, 262.7443231348805, 273.01473011369734, 214.97703980950413, 292.4170110589246, 274.5590461988626, 279.436472059023, 208.5018455656384, 337.99107392636375, 199.50614259193517, 270.8102661037152, 255.35840791185126, 356.5259403097374, 208.81543197163865, 367.1149822464657, 263.2183322180316, 296.704743875444, 199.32617645740694, 327.581296160278, 197.0829668460824, 265.3955940322542, 238.9540669746597, 287.43868614492345, 203.21643241923542, 317.4929091041652, 196.2612593817865, 312.46457673477755, 280.93512776088426, 363.9137768402127, 215.3988741508786, 267.08272780353406, 247.3262640194525, 265.85577052515, 230.41959834920794, 302.13058611641867, 278.50365253741336, 369.4944818984798, 222.78679560104993, 268.4336527072548, 222.3730754639132, 371.74456893623415, 255.82223117954288, 306.91877704300975, 196.97201210425754, 374.8619328620184, 239.2438054292444, 322.4481545042178, 281.7843357152469, 347.749220255343, 203.44992605822645, 352.5875204193626, 274.94877373070335, 283.71294621352166, 269.2281312075842, 213.6671799971308, 256.22861478037856, 384.60808661895464, 311.16753890409774, 355.7979414114879, 159.59853243740383, 274.32098271914947, 158.77796495306575, 325.6527698463548, 324.59701083000755, 334.4892690233544, 154.6755052565022, 304.06293032414254, 322.80238181236166, 423.41582912728114, 272.9306871209133, 428.8723383682452, 256.31865774464654, 221.43107363900862, 272.44127510982526, 255.5694960239376, 166.35217688367837, 392.4622916879062, 177.86378785707336, 407.48427683911376, 191.07339132648912, 284.136484305201, 318.10824823818314, 429.83136148067183, 238.99994884331113, 315.00148702464924, 153.08816468176911, 210.05550759807414, 239.13738301797815, 365.2782348524003, 318.981047306972, 293.216205173473, 154.53093738833434, 414.0315491603642, 287.7139155725508, 216.08988485345563, 205.48117269823308, 238.71865532856395, 177.20194387153467, 400.79193909308225, 300.7489806374334, 225.61264128308682, 190.22262023434976, 210.91288815159643, 221.71316881727194, 232.86301018997932, 287.13083791814563, 374.9735539297667, 167.3007198236807, 247.84599884562095, 300.1453751868609, 265.2040445870643, 310.5399981238661, 346.16243333984113, 323.21828160028724, 426.3283112061146, 221.87812388047234, 418.77442201145954, 205.80957209685755, 163.1824756126664, 187.99034642604187, 269.54136212973515, 358.9763490027126, 154.14450228296442, 240.7305281203444, 280.76161317681306, 111.3858418123585, 296.62768726340715, 365.0820395976378, 483.7462981825993, 265.2747170577173, 372.36683312391756, 118.84744839986868, 252.1894197791509, 117.56242465564544, 467.5920945303327, 187.2577744234244, 190.07221287424113, 312.9730035174514, 460.5561488987875, 313.22861722586424, 172.64316408755175, 291.4257125579066, 155.14180162029342, 213.3226958198306, 356.63602964120247, 365.88689840504577, 312.9770001087045, 109.43762807613058, 198.47479089389878, 144.6719381036615, 427.1483008670076, 145.49521211990438, 241.1662440283571, 348.31616607147816, 342.602693070847, 111.98806200553534, 450.3223201631574, 165.33928373301706, 485.23942008181484, 238.46447791684224, 479.63282573708995, 212.01598382160523, 224.87461274802382, 128.2364803550569, 440.3721396592881, 332.64819636755897, 326.89284885180575, 367.6207193035507, 475.2158871513882, 290.6785495034888, 213.23121976127737, 332.4087629568231, 385.44890043192214, 359.9183714237958, 415.0980810258363, 348.4431593680563, 400.4946438619402, 129.85790311287678, 160.2631289206079, 266.9872421645661, 178.07015885560372, 164.48629108287753, 405.37925413026977, 401.1185277650825, 527.0583153519035, 308.72257170914816, 367.6876019747472, 408.70108977841824, 181.0361456672887, 366.5453063954998, 110.13642677985266, 169.5655327773672, 254.09563903333998, 399.8897052451507, 107.14598642789468, 279.4754139413913, 492.4236292482791, 138.42077836989947, 232.0413929629263, 75.29900675443983, 514.9098895023499, 166.12496130689027, 130.67840622323175, 137.7464441354785, 159.60736698333207, 110.50267997956803, 98.7307296609759, 205.7259457763511, 149.16823592276717, 341.01371952315645, 349.4661525420414, 69.32861754855153, 196.33573370098134, 88.6306612865155, 330.2802698951203, 410.03175097751046, 532.273358631681, 199.82772771262256, 219.79975016190576, 387.4264498126415, 443.6096420190863, 386.792307517276, 124.90158441279371, 312.46249920326363, 289.8777488567762, 407.70121895477143, 460.4125722375705, 111.76301987405516, 538.9520575558709, 273.48955446124705, 384.6067638112508, 76.550729422525, 270.5886924013928, 67.91316041496279, 308.84622585690613, 67.25257237914417, 540.6695894602292, 236.15855033692765, 97.99682392205298, 243.8927922053149, 506.4881215294829, 339.66080592382804, 424.1752376926342, 91.18678119507061, 478.5350163406544, 365.776784776097, 174.9411949653757, 57.382232207079966, 307.7118036718068, 48.29399097780009, 61.295927227321044, 294.8910508167794, 514.6117015795053, 400.17602069185693, 58.1889516595906, 199.86885270713074, 328.466484000377, 429.178189608965, 561.493087662926, 143.97980699227816, 202.93946994886903, 419.1383984847035, 224.89428873735238, 52.64828418816626, 464.32579769239004, 419.38606321969667, 84.94490098270916, 108.86933446518057, 271.19167155516544, 49.24961124886161, 581.0927357087348, 233.27172478238106, 532.7755928936202, 109.79396615714163, 389.9455220808002, 52.7660430186657, 61.55299161895266, 151.05195832783198, 370.925230286798, 429.0506942918634, 436.48156943607233, 59.925925181634994, 414.6220522891853, 426.0922862515951, 121.14431294916906, 75.72739798342755, 79.18473704988966, 336.06330341381386, 576.0226672940422, 185.17182291143666, 490.1523494360579, 75.80097933266586, 290.71519413580944, 428.86218575361886, 109.37447784151092, 370.1218924018359, 58.337420752039236, 247.49504134854465, 576.6603056230128, 327.10704427129645, 351.88456688499474, 50.00511575855859, 250.1849968169052, 425.48189148167796, 152.12055368927903, 402.5759478519447, 551.4917433479102, 366.933543380426, 580.4365998963176, 279.2882148313844, 137.91924701806175, 426.12009527335323, 470.3939843915666, 434.060334246249, 537.3675146381802, 426.4804760942775, 569.8896559025391, 78.41633144761346, 103.85671980467441, 51.698925911640146, 73.99878024129424, 402.57016780965023, 503.41430587636717, 53.41785562896371, 197.26981337825958, 434.3840403106298, 53.77467220961768, 87.48864545164534, 52.65182056578732, 354.5191186286441, 583.9605077227867, 390.42054246485185, 587.9255283748514, 126.81963813945846, 50.857700610122265, 426.4499279499131, 587.9796142524349, 54.18761004007888</double->
-                        <double- length="206">319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 319.90832638925366, 239.6203257767606, 292.0384851420923, 202.93115645924655, 360.1990426123943, 212.52841599318822, 268.3328182883772, 252.38168100513548, 279.4705897261352, 266.5849950388635, 266.6881069864778, 227.87062438797463, 312.3113981325958, 198.14698665371318, 265.07617875179176, 236.02181704053203, 287.48604487123595, 272.24512198890216, 363.68250136252453, 265.78110917054124, 337.6739704099998, 279.40485636063084, 374.0419752958153, 234.7671992606978, 366.69932910183843, 219.26606070347123, 374.60958522317424, 243.16257685039832, 371.3742475903768, 226.78601145424037, 342.75407574155764, 202.40932242886825, 356.31041292692794, 271.6538426568873, 369.2922248482386, 258.9275281151676, 270.35924127509526, 220.26135401473397, 301.8431357977157, 199.76538650486006, 372.98381797516424, 251.3107871943905, 347.520638975288, 276.25300082087415, 332.74095752035674, 199.49112493111323, 316.78727610968724, 281.01643251564275, 322.7672935345028, 198.1042134550342, 265.6508973014659, 244.38072867299059, 283.26488779135303, 207.55007421504214, 306.77312245106526, 279.60162902701575, 296.662466923659, 276.61730833384377, 327.177245628025, 280.9981700912543, 275.93959141967633, 213.41490833785724, 352.09590457264835, 206.8226504800951, 272.99175728921284, 259.86641819723434, 413.5761691810358, 198.49217707596998, 334.1790802721749, 322.4914101422234, 212.8567374029296, 216.0512041348121, 400.345823232012, 184.9039127176868, 355.7509669332264, 319.21782803543704, 429.6371705239635, 246.53343260572, 392.42541539464764, 304.0463680545801, 426.2251256078139, 263.3771007058108, 383.17557792118566, 173.05479809376592, 294.8948725636726, 319.97590493698453, 210.9636347898703, 249.74315402226287, 246.76529043871597, 174.81782896049543, 220.5928328047188, 200.1776544232647, 303.9103831856491, 156.39769342315594, 428.45280069970056, 229.60469921799006, 374.05002139142414, 313.4469337250308, 346.08348529360023, 159.16396876996492, 313.46604057529095, 322.5068965742877, 265.42417023476753, 165.28201495858332, 256.7561025530993, 306.0826974975858, 239.51588791380692, 294.3577460182447, 422.9380540735135, 213.3806741847552, 226.2639405525899, 280.9741534525252, 216.52940017147662, 265.76132823469794, 418.6152694700097, 278.7563258536286, 273.92868095280846, 313.997970788109, 407.3932825299205, 292.26721248639114, 283.567461899177, 159.5715481454688, 209.63451865038016, 232.71872337879643, 364.5266785986458, 164.48962826154582, 231.90096577820088, 186.53304679610454, 325.25523163669607, 156.24820612764813, 485.1081386932367, 250.07098593825717, 227.9590962506237, 341.2991076976928, 327.79515725288155, 113.94829331936644, 384.7410662483678, 125.58543803450844, 153.42862212623217, 229.946897750538, 427.1731771113876, 337.5988446204975, 201.5468510160607, 324.2111731315129, 474.1598101101753, 198.2817632024765, 212.1591329822058, 140.23569825809028, 298.45799327846424, 113.98463515759963, 180.15768311318286, 303.61869262106705, 450.62676288598533, 319.64943934528424, 356.2438914803077, 117.77894487827193, 483.14922856040533, 223.54419501025546, 439.620240199519, 155.98788232683296, 310.3798516020445, 364.2476852459251, 284.6133900183451, 360.89789798152054, 342.4831551480764, 364.10312157696364, 158.46671854235174, 203.53556229440807, 413.7044603483747, 138.4920520281811, 268.8746008495415, 118.12554348134233, 370.73979997090083, 359.9148948053484, 479.72230591903036, 275.9592495473843, 253.2398978561759, 352.4123679552906, 467.97789417655633, 299.18844125564334, 239.09298797146056, 126.92531596170616, 155.85992655851905, 256.31706813327844, 170.53633062234826, 179.22167202672182, 188.07745148688534, 158.51522109179274, 398.9289065940966, 351.51694703039897, 459.3220283607141, 175.64890553735785, 165.06785994992805, 281.09090205469863, 96.71741336247152, 227.7532815066764, 346.0937935426003, 405.6178354475215, 477.1731199692779, 125.33736914464912, 272.95809914399894, 401.82354813723896, 533.3807058345253, 288.6396313234681, 421.5484148575455, 390.53458257563034, 135.2437090960438, 328.07551777530614, 504.6984113814048, 151.91250630410104, 114.07591004527092, 298.00404712017524, 440.24338162439557, 101.59124544674134, 540.8375714568208, 252.68427540151202, 100.56569666537854, 263.8976489093805, 330.71254347577974, 72.25874318239235, 493.083665827519, 347.96170967180217, 383.6103081583408, 401.17078911080694, 253.47486229846254, 76.31870665576892, 364.91455667668544, 75.72660951451303, 459.2339491572623, 372.816964539488, 214.9325847636444, 87.28391221872317, 164.04831047578577, 354.80829575291034, 524.9460545142318, 181.84055232613753, 179.5714450982469, 104.0052645458305, 537.8968617645902, 216.66572011945271, 516.5631297644982, 320.9981211981067, 199.62361761867083, 377.06214458868453, 307.8529350979538, 405.36259013711685, 103.782213410661, 190.30111679897456, 404.50301848066795, 86.10960717124618, 294.2300045770929, 72.29811988800722, 144.44616264488073, 129.60897250128596, 120.39604626993813, 157.45774440620613, 235.28105438659884, 391.9294068197596, 367.9845148592159, 54.16512026332535, 92.47294415552523, 354.71692995064916, 293.29024342005926, 52.72491566870917, 579.8981019394643, 254.90624103228052, 533.496857086804, 377.8512632262824, 579.1180115199279, 209.28689635248625, 60.39848156607809, 273.2760038601565, 331.81175774000695, 52.63099805423619, 414.7425280092601, 60.3766066251022, 391.01849046824293, 423.6238494880512, 510.1552418468466, 91.57925486310651, 61.38128844663515, 179.00879660052192, 226.24243270945013, 419.2371034110855, 177.5890562386394, 412.61384733919385, 350.2604168216341, 425.6243963334804, 437.3456498366735, 419.1325280018887, 59.48390144231496, 227.49297870424124, 577.5298725985782, 300.00497622910206, 489.6643606046547, 408.79312877523154, 548.0281369805318, 125.98585007870076, 247.86267068100375, 54.14620745141153, 573.8471256875714, 162.4602400552488, 129.50961269605799, 387.4506437673765, 463.7381620522084, 67.33143794556784, 65.7695794781738, 318.8980857082703, 201.9766674679605, 59.19609399303266, 72.54574019363073, 132.41667949575785, 306.9484597563109, 425.11588536975796, 268.758234236373, 423.22570345113377, 147.90093051832758, 67.00895721086331, 103.56715642557435, 98.14040913536644, 564.1095883536574, 343.9816561108588, 501.24217864563377, 427.7415000310788, 58.73275445139484, 381.338946500783, 583.5507492352183, 358.25108834966926, 583.3393424627031, 99.30103824815646, 105.07249660401104, 417.6239389037887, 536.0927668393963, 62.79044146743456, 137.95785417380324, 49.71330452587284, 63.14976290473538, 65.80939729753811, 170.94716376019727, 429.7473136250718, 571.4528270983946, 409.54894055858455, 471.0419102161544, 50.855925932468296, 49.0865517848606, 49.254688587620336, 98.1423597656686, 432.42206539332403, 585.7151927851503, 428.0901408624647</double->
+                        <double-/>
+                        <double-/>
                      </modeled-test-pattern-image-points-list>
-                     <outlier-points length="2">
-                        <integer>310</integer>
-                        <integer>363</integer>
-                     </outlier-points>
+                     <outlier-points length="0"/>
                      <trial-step value="0.5" units="Millimeters"/>
-                     <calibrated-offsets units="Millimeters" x="-1.532995536541663" y="2.1974249726947614" z="0.0" rotation="0.0"/>
+                     <calibrated-offsets units="Millimeters" x="1.467558145565097" y="-1.566792482398201" z="0.0" rotation="0.0"/>
                   </advanced-calibration>
                   <focus-provider class="org.openpnp.machine.reference.camera.AutoFocusProvider" averaged-frames="1" focus-speed="0.5" show-diagnostics="true">
                      <focal-resolution value="0.05" units="Millimeters"/>
@@ -432,145 +449,106 @@
                   <zoom property="Zoom"/>
                </camera>
             </cameras>
-            <park-location units="Millimeters" x="76.067" y="205.274" z="0.0" rotation="0.0"/>
+            <park-location units="Millimeters" x="70.567" y="210.174" z="0.0" rotation="0.0"/>
             <soft-limits-enabled>true</soft-limits-enabled>
             <pump-actuator-name>N1:SOLENOID</pump-actuator-name>
-            <homing-fiducial-location units="Millimeters" x="76.067" y="205.274" z="-24.400000000000006" rotation="0.0"/>
-            <calibration-primary-fiducial-location units="Millimeters" x="75.78802490775179" y="205.2445302247946" z="-24.354800000000008" rotation="0.0"/>
-            <calibration-secondary-fiducial-location units="Millimeters" x="76.0641931542824" y="234.68014225219832" z="-14.399499999999998" rotation="0.0"/>
-            <calibration-primary-fiducial-diameter value="1.057168770624747" units="Millimeters"/>
-            <calibration-secondary-fiducial-diameter value="1.0946747339558023" units="Millimeters"/>
-            <calibration-test-object-diameter value="4.815991066179404" units="Millimeters"/>
+            <homing-fiducial-location units="Millimeters" x="70.567" y="210.174" z="-24.400000000000006" rotation="0.0"/>
+            <calibration-primary-fiducial-location units="Millimeters" x="70.55056998447834" y="210.19300520659365" z="-25.000000000000014" rotation="0.0"/>
+            <calibration-secondary-fiducial-location units="Millimeters" x="43.414661950178626" y="210.86185572902954" z="-15.299999999999999" rotation="0.0"/>
+            <calibration-primary-fiducial-diameter value="1.0529323142826872" units="Millimeters"/>
+            <calibration-secondary-fiducial-diameter value="1.0772410289913863" units="Millimeters"/>
+            <calibration-test-object-diameter value="5.007852149590599" units="Millimeters"/>
          </head>
       </heads>
       <signalers/>
       <feeders>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="F5" name="stripe 1" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="3" max-feed-count="48">
-            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="481.79740800425714" y="185.94118128621125" z="-20.0" rotation="0.0"/>
-            <last-hole-location units="Millimeters" x="481.78779983741515" y="189.9884451449404" z="-32.0" rotation="0.0"/>
-            <part-pitch value="4.0" units="Millimeters"/>
-            <tape-width value="8.0" units="Millimeters"/>
-            <pipeline>
-               <stages>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="original" enabled="true" default-light="true" settle-option="Settle" count="1"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurMedian" name="cleanup-original" enabled="true" kernel-size="5"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="gray" enabled="true" conversion="Bgr2Gray"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.DetectEdgesCanny" name="find-edges" enabled="true" threshold-1="5.0" threshold-2="80.0"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="predetect-1" enabled="true" kernel-size="5" property-name="BlurGaussian"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurMedian" name="predetect-2" enabled="false" kernel-size="7"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.DetectFixedCirclesHough" name="results" enabled="true" dp="1.0" param-1="25.0" param-2="20.0"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="recalled" enabled="true" image-stage-name="original"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.DrawCircles" name="display" enabled="true" circles-stage-name="results" thickness="1">
-                     <color r="255" g="0" b="0" a="255"/>
-                  </cv-stage>
-               </stages>
-            </pipeline>
-         </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR16bc4bf8025c7bea" name="ReferencePushPullFeeder" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" rotation-in-feeder="0.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" calibrate-motion-x="true" calibrate-motion-y="true" feed-multiplier="1" feed-speed-push-2="1.0" feed-speed-push-3="1.0" feed-speed-push-end="1.0" feed-speed-pull-3="1.0" feed-speed-pull-2="1.0" feed-speed-pull-1="1.0" feed-speed-pull-0="1.0" included-push-1="false" included-push-2="false" included-push-3="true" included-push-end="false" included-multi-0="false" included-multi-1="false" included-multi-2="false" included-multi-3="false" included-multi-end="true" included-pull-0="false" included-pull-1="true" included-pull-2="true" included-pull-3="false" additive-rotation="true" feed-count="77" pipeline-type="ColorKeyed" ocr-font-name="Liberation Mono" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="false" ocr-stop-after-wrong-part="false" calibration-count="2" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="UntilConfident">
-            <location units="Millimeters" x="467.3244064038919" y="27.964513760737326" z="-7.705" rotation="90.0"/>
-            <hole-1-location units="Millimeters" x="463.8244064038919" y="29.964513760737326" z="-0.0" rotation="0.0"/>
-            <hole-2-location units="Millimeters" x="463.8244064038919" y="33.964513760737326" z="0.0" rotation="0.0"/>
-            <feed-start-location units="Millimeters" x="550.11" y="20.248" z="-7.505" rotation="0.0"/>
-            <feed-mid-1-location units="Millimeters" x="550.11" y="21.248" z="-26.305" rotation="0.0"/>
-            <feed-mid-2-location units="Millimeters" x="550.11" y="31.248" z="-27.205" rotation="0.0"/>
-            <feed-mid-3-location units="Millimeters" x="550.11" y="16.0" z="-26.205" rotation="0.0"/>
-            <feed-end-location units="Millimeters" x="550.11" y="21.248" z="-7.505" rotation="0.0"/>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR17b7628027d11c85" name="Grey" enabled="false" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="0" rotation-in-feeder="90.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" calibrate-motion-x="true" calibrate-motion-y="true" feed-multiplier="1" feed-speed-push-2="0.2" feed-speed-push-3="0.5" feed-speed-push-end="0.5" feed-speed-pull-3="0.5" feed-speed-pull-2="0.5" feed-speed-pull-1="0.2" feed-speed-pull-0="0.5" included-push-1="true" included-push-2="true" included-push-3="true" included-push-end="true" included-multi-0="true" included-multi-1="true" included-multi-2="true" included-multi-3="true" included-multi-end="true" included-pull-0="false" included-pull-1="false" included-pull-2="false" included-pull-3="false" additive-rotation="true" actuator-name="N1:PUSH_PULL" feed-count="40" pipeline-type="CircularSymmetry" ocr-font-name="" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="false" ocr-stop-after-wrong-part="false" calibration-count="84" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="UntilConfident">
+            <location units="Millimeters" x="443.19181164316956" y="13.073133745066048" z="-39.2" rotation="90.0"/>
+            <hole-1-location units="Millimeters" x="439.69181164316956" y="11.073133745066048" z="-0.0" rotation="0.0"/>
+            <hole-2-location units="Millimeters" x="439.69181164316956" y="15.073133745066048" z="0.0" rotation="0.0"/>
+            <feed-start-location units="Millimeters" x="443.23327729677106" y="13.026107843768914" z="-39.2" rotation="-0.671847268752785"/>
+            <feed-mid-1-location units="Millimeters" x="443.280180009558" y="17.025832851257956" z="-39.2" rotation="-0.671847268752785"/>
+            <feed-mid-2-location units="Millimeters" x="443.280180009558" y="17.025832851257956" z="-39.2" rotation="-0.671847268752785"/>
+            <feed-mid-3-location units="Millimeters" x="443.280180009558" y="17.025832851257956" z="-35.0" rotation="-0.671847268752785"/>
+            <feed-end-location units="Millimeters" x="443.280180009558" y="17.025832851257956" z="-35.0" rotation="-0.671847268752785"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <feed-pitch value="4.0" units="Millimeters"/>
-            <feed-speed-push-1>1.0</feed-speed-push-1>
+            <feed-speed-push-1>0.5</feed-speed-push-1>
             <pipeline>
                <stages>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRead" name="00" enabled="false" file="test.png" color-space="Bgr" handle-as-captured="false"/>
                   <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" default-light="true" settle-option="Settle" count="1"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb0" enabled="false" prefix="push_pull_" suffix=".png"/>
                   <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="1" enabled="true" kernel-size="5" property-name="BlurGaussian"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.AffineWarp" name="11" enabled="true" length-unit="Millimeters" x-0="0.0" y-0="0.0" x-1="0.0" y-1="0.0" x-2="0.0" y-2="0.0" scale="1.0" rectify="true" region-of-interest-property="regionOfInterest"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="12" enabled="true" conversion="Rgb2Gray"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.HistogramEqualizeAdaptive" name="13" enabled="true" channels-to-equalize="First" clip-limit="2.0" number-of-tile-rows="1" number-of-tile-cols="1"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.AffineWarp" name="2" enabled="true" length-unit="Millimeters" x-0="0.0" y-0="0.0" x-1="0.0" y-1="0.0" x-2="0.0" y-2="0.0" scale="1.0" rectify="true" region-of-interest-property="regionOfInterest"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="3" enabled="true" conversion="Bgr2Gray"/>
                   <cv-stage class="org.openpnp.vision.pipeline.stages.SimpleOcr" name="OCR" enabled="true" alphabet="0123456789.-+_RCLDQYXJIVAFH%GMKkmuÂµnp" font-name="Liberation Mono" font-size-pt="7.0" font-max-pixel-size="20" auto-detect-size="false" threshold="0.75" draw-style="OverOriginalImage" debug="false" property-name="SimpleOcr"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="20" enabled="true" image-stage-name="1"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="21" enabled="true" diameter="600" property-name="MaskCircle"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="22" enabled="true" conversion="Bgr2Gray"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.Normalize" name="23" enabled="true"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MaskHsv" name="24" enabled="true" auto="false" fraction-to-mask="0.85" hue-min="0" hue-max="245" saturation-min="0" saturation-max="255" value-min="200" value-max="255" soft-edge="0" soft-factor="1.0" invert="true" binary-mask="true" property-name="MaskHsv"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurMedian" name="25" enabled="true" kernel-size="13"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.FindContours" name="27" enabled="true" retrieval-mode="ConnectedComponent" approximation-method="Simple"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.FilterContours" name="28" enabled="true" contours-stage-name="27" min-area="100.0" max-area="2000.0" property-name="FilterContours"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.FitEllipseContours" name="results" enabled="true" contours-stage-name="28"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="30" enabled="true" image-stage-name="0"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.DrawEllipses" name="31" enabled="true" ellipses-stage-name="results" thickness="2"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="5" enabled="true" image-stage-name="0"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="results" enabled="true" min-diameter="10" max-diameter="100" max-distance="100" search-width="0" search-height="0" max-target-count="10" min-symmetry="1.2" corr-symmetry="0.2" outer-margin="0.3" inner-margin="0.1" sub-sampling="8" super-sampling="1" symmetry-score="RingMedianVarianceVsRingVarianceSum" property-name="sprocketHole" diagnostics="false" heat-map="false"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="7" enabled="false" image-stage-name="0"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DrawCircles" name="8" enabled="false" circles-stage-name="results" thickness="1">
+                     <color r="255" g="0" b="0" a="255"/>
+                  </cv-stage>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb1" enabled="false" prefix="push_pull_result_" suffix=".png"/>
                </stages>
             </pipeline>
+            <ocr-region rectify="true">
+               <upper-left-corner units="Millimeters" x="-2.129190877373949" y="15.255642403924215" z="0.0" rotation="0.0"/>
+               <upper-right-corner units="Millimeters" x="7.3358749538763774" y="14.666061697846198" z="0.0" rotation="0.0"/>
+               <lower-left-corner units="Millimeters" x="-2.4843810002842788" y="5.411165004481302" z="0.0" rotation="0.0"/>
+               <offsets units="Millimeters" x="0.598776655028502" y="9.866963365677645" z="39.2" rotation="180.0"/>
+            </ocr-region>
             <precision-wanted value="0.1" units="Millimeters"/>
-            <sum-of-errors value="2.0619325502655292" units="Millimeters"/>
-            <sum-of-error-squares value="4.194733622483472" units="Millimeters"/>
+            <sum-of-errors value="40.562751817265706" units="Millimeters"/>
+            <sum-of-error-squares value="87.48873705338406" units="Millimeters"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.AdvancedLoosePartFeeder" version="1.1" id="FDR16fda4bb4a433835" name="AdvancedLoosePartFeeder" enabled="false" part-id="FIDUCIAL-1X2-FIDUCIAL1X2" retry-count="3" feed-retry-count="3" pick-retry-count="0">
-            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR17be24bd96ba6fbc" name="Black" enabled="true" part-id="R0805-1K" retry-count="3" feed-retry-count="3" pick-retry-count="3" rotation-in-feeder="90.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" calibrate-motion-x="true" calibrate-motion-y="true" feed-multiplier="1" feed-speed-push-2="0.2" feed-speed-push-3="0.5" feed-speed-push-end="0.5" feed-speed-pull-3="0.5" feed-speed-pull-2="0.5" feed-speed-pull-1="0.2" feed-speed-pull-0="0.5" included-push-1="true" included-push-2="true" included-push-3="true" included-push-end="true" included-multi-0="true" included-multi-1="true" included-multi-2="true" included-multi-3="true" included-multi-end="true" included-pull-0="false" included-pull-1="false" included-pull-2="false" included-pull-3="false" additive-rotation="false" actuator-name="N1:PUSH_PULL" feed-count="57" pipeline-type="CircularSymmetry" ocr-font-name="" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="false" ocr-stop-after-wrong-part="false" calibration-count="117" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="UntilConfident">
+            <location units="Millimeters" x="425.7218116431693" y="12.783228394971694" z="-39.2" rotation="90.0"/>
+            <hole-1-location units="Millimeters" x="422.2218116431693" y="10.783228394971694" z="-0.0" rotation="0.0"/>
+            <hole-2-location units="Millimeters" x="422.2218116431693" y="14.783228394971694" z="0.0" rotation="0.0"/>
+            <feed-start-location units="Millimeters" x="425.8039048385918" y="12.665485475892332" z="-39.2" rotation="-1.3515978856763127"/>
+            <feed-mid-1-location units="Millimeters" x="425.89825542039017" y="17.0" z="-39.2" rotation="-1.3515978856763127"/>
+            <feed-mid-2-location units="Millimeters" x="425.89825542039017" y="17.0" z="-39.2" rotation="-1.3515978856763127"/>
+            <feed-mid-3-location units="Millimeters" x="425.89825542039017" y="17.0" z="-35.0" rotation="-1.3515978856763127"/>
+            <feed-end-location units="Millimeters" x="425.89825542039017" y="17.0" z="-35.0" rotation="-1.3515978856763127"/>
+            <part-pitch value="4.0" units="Millimeters"/>
+            <feed-pitch value="4.0" units="Millimeters"/>
+            <feed-speed-push-1>0.5</feed-speed-push-1>
             <pipeline>
                <stages>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRead" name="00" enabled="false" file="_openpnp\vision\openpnp-pipeline-tests" color-space="Bgr" handle-as-captured="false"/>
                   <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" default-light="true" settle-option="Settle" count="1"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="1" enabled="true" kernel-size="19" property-name="BlurGaussian"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="19" enabled="true" conversion="Bgr2HsvFull"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.Normalize" name="2" enabled="true"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MaskHsv" name="3" enabled="true" auto="false" fraction-to-mask="0.0" hue-min="89" hue-max="115" saturation-min="20" saturation-max="95" value-min="50" value-max="130" soft-edge="0" soft-factor="1.0" invert="false" binary-mask="false" property-name="MaskHsv"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="4" enabled="true" conversion="Bgr2Gray"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.Threshold" name="5" enabled="true" threshold="8" auto="false" invert="false"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.FindContours" name="6" enabled="true" retrieval-mode="List" approximation-method="None"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.FilterContours" name="7" enabled="true" contours-stage-name="6" min-area="1000.0" max-area="100000.0" property-name="FilterContours"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MinAreaRectContours" name="8" enabled="true" contours-stage-name="7"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ReadPartTemplateImage" name="14" enabled="true" template-file="" extension=".png" prefix="top-" log="false" color-space="Bgr"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="10" enabled="true" conversion="Bgr2Gray"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.Normalize" name="16" enabled="true"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ComposeResult" name="13" enabled="true" image-stage-name="16" model-stage-name="14"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="11" enabled="true" image-stage-name="0"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MaskModel" name="12" enabled="true" model-stage-name="7" is-mask="false">
-                     <color r="0" g="0" b="0" a="255"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb0" enabled="false" prefix="push_pull_" suffix=".png"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="1" enabled="true" kernel-size="5" property-name="BlurGaussian"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.AffineWarp" name="2" enabled="true" length-unit="Millimeters" x-0="0.0" y-0="0.0" x-1="0.0" y-1="0.0" x-2="0.0" y-2="0.0" scale="1.0" rectify="true" region-of-interest-property="regionOfInterest"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="3" enabled="true" conversion="Bgr2Gray"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.SimpleOcr" name="OCR" enabled="true" alphabet="0123456789.-+_RCLDQYXJIVAFH%GMKkmuÂµnp" font-name="Liberation Mono" font-size-pt="7.0" font-max-pixel-size="20" auto-detect-size="false" threshold="0.75" draw-style="OverOriginalImage" debug="false" property-name="SimpleOcr"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="5" enabled="true" image-stage-name="0"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="results" enabled="true" min-diameter="10" max-diameter="100" max-distance="100" search-width="0" search-height="0" max-target-count="10" min-symmetry="1.2" corr-symmetry="0.2" outer-margin="0.3" inner-margin="0.1" sub-sampling="8" super-sampling="1" symmetry-score="RingMedianVarianceVsRingVarianceSum" property-name="sprocketHole" diagnostics="false" heat-map="false"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="7" enabled="false" image-stage-name="0"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DrawCircles" name="8" enabled="false" circles-stage-name="results" thickness="1">
+                     <color r="255" g="0" b="0" a="255"/>
                   </cv-stage>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ClosestModel" name="18" enabled="true" log="true" filter-stage-name="13" model-stage-name="8" tolerance="0.2" scale="1.0"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MaskModel" name="15" enabled="true" model-stage-name="18" is-mask="false">
-                     <color r="0" g="0" b="0" a="255"/>
-                  </cv-stage>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="9" enabled="true" conversion="Bgr2Gray"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.Normalize" name="17" enabled="true"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MatchPartTemplate" name="results" enabled="true" log="false" template-stage-name="13" model-stage-name="18" threshold="0.2"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="21" enabled="true" conversion="Gray2Bgr"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.DrawRotatedRects" name="20" enabled="true" rotated-rects-stage-name="results" thickness="1" draw-rect-center="false" rect-center-radius="20" show-orientation="false"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb1" enabled="false" prefix="push_pull_result_" suffix=".png"/>
                </stages>
             </pipeline>
-            <training-pipeline>
-               <stages>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRead" name="00" enabled="false" file="\home\dz\develop\openpnp\_openpnp\vision\openpnp-pipeline-tests\TO252\original_6313736782598297700.png" color-space="Bgr" handle-as-captured="false"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" default-light="true" settle-option="Settle" count="1"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="1" enabled="true" prefix="original_" suffix=".png"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="2" enabled="true" kernel-size="5" property-name="BlurGaussian"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="3" enabled="true" conversion="Bgr2HsvFull"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.Normalize" name="4" enabled="true"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MaskHsv" name="5" enabled="true" auto="false" fraction-to-mask="0.0" hue-min="90" hue-max="120" saturation-min="45" saturation-max="100" value-min="45" value-max="120" soft-edge="0" soft-factor="1.0" invert="false" binary-mask="false" property-name="MaskHsv"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="6" enabled="true" conversion="Bgr2Gray"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.Threshold" name="7" enabled="true" threshold="80" auto="true" invert="false"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.FindContours" name="8" enabled="true" retrieval-mode="List" approximation-method="None"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.FilterContours" name="9" enabled="true" contours-stage-name="8" min-area="3000.0" max-area="200000.0" property-name="FilterContours"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MinAreaRectContours" name="10" enabled="true" contours-stage-name="9"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="11" enabled="true" image-stage-name="0"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.MaskModel" name="12" enabled="true" model-stage-name="9" is-mask="false">
-                     <color r="0" g="0" b="0" a="255"/>
-                  </cv-stage>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.CreateModelTemplateImage" name="14" enabled="true" model-stage-name="10" degrees="0.0"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.WritePartTemplateImage" name="13" enabled="true" template-file="" extension=".png" prefix="top-" as-package="false"/>
-               </stages>
-            </training-pipeline>
+            <ocr-region rectify="true">
+               <upper-left-corner units="Millimeters" x="-1.9480540733891891" y="15.279828672987628" z="0.0" rotation="0.0"/>
+               <upper-right-corner units="Millimeters" x="7.509351098739763" y="14.577999627513988" z="0.0" rotation="0.0"/>
+               <lower-left-corner units="Millimeters" x="-2.4200102210842074" y="5.4402579157742705" z="0.0" rotation="0.0"/>
+               <offsets units="Millimeters" x="0.7157923020829107" y="9.859165325853436" z="39.2" rotation="180.0"/>
+            </ocr-region>
+            <precision-wanted value="0.1" units="Millimeters"/>
+            <sum-of-errors value="67.65188018638783" units="Millimeters"/>
+            <sum-of-error-squares value="130.42190522081032" units="Millimeters"/>
          </feeder>
       </feeders>
       <cameras>
-         <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM166d69afab89f00e" name="bedcam" looking="Up" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" max-relative-motion="0.05" min-motion-template-match-score="0.9" min-contrast-range="16.0" settle-method="Motion" settle-time-ms="250" settle-timeout-ms="600" settle-threshold="1.0" settle-debounce="2" settle-full-color="false" settle-gaussian-blur="19" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="true" fps="5.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.0" flip-x="false" flip-y="true" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0658682634730539" green-balance="1.0" blue-balance="1.141025641025641" red-gamma="1.0329559886059394" green-gamma="0.9760038692558" blue-gamma="0.9915966099877261" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="USB 2.0 PC Cam \\?\usb#vid_5149&amp;pid_13d3&amp;mi_00#7&amp;1860f8ca&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="0" freeze-properties="false">
-            <units-per-pixel units="Millimeters" x="0.013745025347854453" y="0.0136773936010223" z="0.0" rotation="0.0"/>
-            <camera-primary-z value="-23.732633333333332" units="Millimeters"/>
+         <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM166d69afab89f00e" name="bedcam" looking="Up" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="true" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" max-relative-motion="0.05" min-motion-template-match-score="0.9" min-contrast-range="16.0" settle-method="Motion" settle-time-ms="600" settle-timeout-ms="600" settle-threshold="1.0" settle-debounce="2" settle-full-color="false" settle-gaussian-blur="41" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="true" fps="5.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="-0.5226111359446186" flip-x="false" flip-y="true" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0974025974025974" green-balance="1.0" blue-balance="1.0628930817610063" red-gamma="0.9454344342765189" green-gamma="0.9574239336890641" blue-gamma="1.1055393190734204" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="USB 2.0 PC Cam \\?\usb#vid_5149&amp;pid_13d3&amp;mi_00#7&amp;1860f8ca&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="3" freeze-properties="false">
+            <units-per-pixel units="Millimeters" x="0.006805710760091916" y="0.006918580511613966" z="0.0" rotation="0.0"/>
+            <camera-primary-z value="-23.54" units="Millimeters"/>
             <default-z value="-23.405" units="Millimeters"/>
             <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
             <roaming-radius value="0.0" units="Millimeters"/>
-            <head-offsets units="Millimeters" x="249.908" y="69.075" z="-22.005" rotation="0.0"/>
+            <head-offsets units="Millimeters" x="291.7721262579282" y="74.96241670579033" z="-23.54" rotation="0.0"/>
             <calibration enabled="false">
                <camera-matrix length="9">6.199766824520647E223, 2.8806793736619725E214, 4.0541785489840785E228, 4.2854800276585076E170, 3.60772083633585E-85, 1.3139730257272647E-47, 8.429917140154928E276, 7.691193644833856E218, 1.476498187985709E-28</camera-matrix>
                <distortion-coefficients length="5">0.0, 0.0, 0.0, 0.0, 0.0</distortion-coefficients>
@@ -610,10 +588,10 @@
             <focus-provider class="org.openpnp.machine.reference.camera.AutoFocusProvider" averaged-frames="1" focus-speed="0.5" show-diagnostics="true">
                <focal-resolution value="0.05" units="Millimeters"/>
             </focus-provider>
-            <red-color-map length="8">0.0, 0.1843137254901961, 0.30196078431372547, 0.4823529411764706, 0.615686274509804, 0.7372549019607844, 0.8470588235294118, 1.0</red-color-map>
-            <green-color-map length="8">0.0, 0.17254901960784313, 0.27058823529411763, 0.43529411764705883, 0.5568627450980392, 0.6901960784313725, 0.803921568627451, 0.9411764705882353</green-color-map>
-            <blue-color-map length="8">0.12549019607843137, 0.2901960784313726, 0.3764705882352941, 0.48627450980392156, 0.6274509803921569, 0.792156862745098, 0.9294117647058824, 0.9411764705882353</blue-color-map>
-            <back-light-compensation property="BackLightCompensation" value="0" auto="false"/>
+            <red-color-map length="8">0.06274509803921569, 0.18823529411764706, 0.3137254901960784, 0.47843137254901963, 0.6235294117647059, 0.7372549019607844, 0.8549019607843137, 1.0</red-color-map>
+            <green-color-map length="8">0.050980392156862744, 0.17254901960784313, 0.2823529411764706, 0.43529411764705883, 0.5568627450980392, 0.6901960784313725, 0.807843137254902, 0.9411764705882353</green-color-map>
+            <blue-color-map length="8">0.08627450980392157, 0.24313725490196078, 0.3607843137254902, 0.4745098039215686, 0.596078431372549, 0.7333333333333333, 0.8627450980392157, 0.9411764705882353</blue-color-map>
+            <back-light-compensation property="BackLightCompensation" value="1" auto="false"/>
             <brightness property="Brightness" value="128" auto="false"/>
             <contrast property="Contrast" value="36" auto="false"/>
             <exposure property="Exposure"/>
@@ -630,18 +608,18 @@
       </cameras>
       <actuators/>
       <part-alignments>
-         <part-alignment class="org.openpnp.machine.reference.vision.ReferenceBottomVision" bottom-vision-id="BVS_Default" enabled="true" pre-rotate="false" max-vision-passes="3" max-angular-offset="10.0" test-alignment-angle="0.0">
+         <part-alignment class="org.openpnp.machine.reference.vision.ReferenceBottomVision" bottom-vision-id="BVS_Stock" enabled="true" pre-rotate="false" max-vision-passes="3" max-angular-offset="10.0" test-alignment-angle="0.0">
             <max-linear-offset value="1.0" units="Millimeters"/>
          </part-alignment>
       </part-alignments>
       <drivers>
-         <driver class="org.openpnp.machine.reference.driver.GcodeAsyncDriver" id="DRV166208a07d8ab5cf" name="GcodeDriver" motion-control-type="SimpleSCurve" communications="serial" connection-keep-alive="false" sync-initial-location="false" allow-unhomed-motion="false" units="Millimeters" max-feed-rate="0" backlash-offset-x="-0.3" backlash-offset-y="-1.0" backlash-offset-z="0.0" backlash-offset-r="0.0" non-squareness-factor="0.0" backlash-feed-rate-factor="0.1" timeout-milliseconds="240000" connect-wait-time-milliseconds="1000" dollar-wait-time-milliseconds="50" visual-homing-enabled="false" backslash-escaped-characters-enabled="false" remove-comments="true" compress-gcode="true" compression-excludes="[]&quot;" logging-gcode="false" supporting-pre-move="false" using-letter-variables="true" infinity-timeout-milliseconds="60000" writer-polling-interval="100" writer-queue-timeout="60000" max-commands-queued="1000" confirmation-flow-control="true" reported-location-confirmation="true" interpolation-max-steps="32" interpolation-jerk-steps="4" interpolation-time-step="0.001" interpolation-min-step="16">
-            <serial line-ending-type="LF" port-name="COM11" baud="115200" flow-control="Off" data-bits="Eight" stop-bits="One" parity="None" set-dtr="true" set-rts="true" name="SerialPortCommunications"/>
-            <tcp line-ending-type="LF" ip-address="127.0.0.1" port="23" name="TcpCommunications"/>
+         <driver class="org.openpnp.machine.reference.driver.GcodeAsyncDriver" id="DRV166208a07d8ab5cf" name="GcodeDriver" motion-control-type="SimpleSCurve" communications="serial" connection-keep-alive="false" sync-initial-location="true" allow-unhomed-motion="false" units="Millimeters" max-feed-rate="0" backlash-offset-x="-0.3" backlash-offset-y="-1.0" backlash-offset-z="0.0" backlash-offset-r="0.0" non-squareness-factor="0.0" backlash-feed-rate-factor="0.1" timeout-milliseconds="240000" connect-wait-time-milliseconds="1000" dollar-wait-time-milliseconds="50" visual-homing-enabled="false" backslash-escaped-characters-enabled="false" remove-comments="true" compress-gcode="true" compression-excludes="[]&quot;" logging-gcode="true" supporting-pre-move="false" using-letter-variables="true" infinity-timeout-milliseconds="60000" writer-polling-interval="100" writer-queue-timeout="60000" max-commands-queued="1000" confirmation-flow-control="true" reported-location-confirmation="true" interpolation-max-steps="32" interpolation-jerk-steps="4" interpolation-time-step="0.001" interpolation-min-step="16">
+            <serial line-ending-type="CRLF" port-name="COM11" baud="4000000" flow-control="Off" data-bits="Eight" stop-bits="One" parity="None" set-dtr="true" set-rts="true" name="SerialPortCommunications"/>
+            <tcp line-ending-type="CRLF" ip-address="127.0.0.1" port="23" name="TcpCommunications"/>
             <simulated line-ending-type="LF"/>
             <homing-fiducial-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <detected-firmware><![CDATA[FIRMWARE_NAME:TinyG, FIRMWARE_URL:https%3A//github.com/synthetos/TinyG, FIRMWARE_VERSION:0.97, FIRMWARE_BUILD:440.21, HARDWARE_PLATFORM:1.00, HARDWARE_VERSION:8.00]]></detected-firmware>
-            <reported-axes><![CDATA[X:177.4400 Y:258.5271 Z:-2.0000 A:-39.8420 B:0.0000 C:0.0000]]></reported-axes>
+            <reported-axes><![CDATA[X:371.4700 Y:68.1200 Z:-22.4000 A:38.6600 B:0.0000 C:0.0000]]></reported-axes>
             <command type="DISABLE_COMMAND">
                <text><![CDATA[M9 M5]]></text>
             </command>
@@ -649,6 +627,7 @@
                <text><![CDATA[G21 M9]]></text>
             </command>
             <command type="CONNECT_COMMAND">
+               <text><![CDATA[$ja=2000000]]></text>
                <text><![CDATA[$ex=0]]></text>
                <text><![CDATA[$SV=2]]></text>
                <text><![CDATA[$ME ]]></text>
@@ -656,41 +635,56 @@
                <text><![CDATA[$2pm=2]]></text>
                <text><![CDATA[$3pm=2]]></text>
                <text><![CDATA[$4pm=2]]></text>
-               <text><![CDATA[$mt=1000000000]]></text>
+               <text><![CDATA[$mt=1000000]]></text>
+               <text><![CDATA[$jv=0]]></text>
+               <text><![CDATA[$js=0]]></text>
+               <text><![CDATA[$sv=0]]></text>
+               <text><![CDATA[$si=4000000000]]></text>
+               <text><![CDATA[$ex=0]]></text>
+               <text><![CDATA[$gpa=0]]></text>
                <text><![CDATA[G21 G90 G92 X0 Y0 Z0 A0 M8 M5]]></text>
-               <text><![CDATA[$xjm=2000]]></text>
-               <text><![CDATA[$xvm=8000]]></text>
+               <text><![CDATA[$xjm=540000]]></text>
+               <text><![CDATA[$xvm=2000]]></text>
                <text><![CDATA[$xsv=2000]]></text>
                <text><![CDATA[$xsn=3]]></text>
-               <text><![CDATA[$xjh=2000]]></text>
+               <text><![CDATA[$xjh=540000]]></text>
+               <text><![CDATA[$xjd=0.5000]]></text>
+               <text><![CDATA[$xlv=1000]]></text>
                <text><![CDATA[$xsx=2]]></text>
                <text><![CDATA[$1mi=8]]></text>
                <text><![CDATA[$1sa=0.900]]></text>
                <text><![CDATA[$1tr=39.8930]]></text>
-               <text><![CDATA[$yjm=2000]]></text>
-               <text><![CDATA[$yvm=8000]]></text>
+               <text><![CDATA[$yjm=540000]]></text>
+               <text><![CDATA[$yvm=20000]]></text>
                <text><![CDATA[$ysn=3]]></text>
                <text><![CDATA[$ysx=2]]></text>
-               <text><![CDATA[$yjh=2000]]></text>
-               <text><![CDATA[$ysv=1800]]></text>
+               <text><![CDATA[$yjh=540000]]></text>
+               <text><![CDATA[$yjd=0.6000]]></text>
+               <text><![CDATA[$ysv=2000]]></text>
+               <text><![CDATA[$ylv=1000]]></text>
                <text><![CDATA[$2mi=8]]></text>
                <text><![CDATA[$2sa=0.900]]></text>
                <text><![CDATA[$2tr=39.9750]]></text>
-               <text><![CDATA[$zjm=2300]]></text>
-               <text><![CDATA[$zvm=3000]]></text>
-               <text><![CDATA[$ztm=60]]></text>
-               <text><![CDATA[$zjh=2000]]></text>
+               <text><![CDATA[$zjm=5400]]></text>
+               <text><![CDATA[$zvm=5000]]></text>
+               <text><![CDATA[$ztm=80]]></text>
+               <text><![CDATA[$zjh=20000]]></text>
+               <text><![CDATA[$zjd=0.5000]]></text>
                <text><![CDATA[$zsv=1500]]></text>
-               <text><![CDATA[$xfr=100000]]></text>
+               <text><![CDATA[$xfr=20000]]></text>
                <text><![CDATA[$xtm=650]]></text>
-               <text><![CDATA[$yfr=100000]]></text>
+               <text><![CDATA[$yfr=20000]]></text>
                <text><![CDATA[$ytm=400]]></text>
-               <text><![CDATA[$zfr=100000]]></text>
-               <text><![CDATA[$afr=100000]]></text>
+               <text><![CDATA[$zfr=2000]]></text>
+               <text><![CDATA[$afr=200000]]></text>
+               <text><![CDATA[$atm=600]]></text>
                <text><![CDATA[$3mi=8]]></text>
                <text><![CDATA[$3sa=1.800]]></text>
                <text><![CDATA[$3tr=8.0000]]></text>
-               <text><![CDATA[$ajm=600]]></text>
+               <text><![CDATA[$ajm=51840]]></text>
+               <text><![CDATA[$ajh=5000]]></text>
+               <text><![CDATA[$ajd=0.5000]]></text>
+               <text><![CDATA[$ara=0.1990]]></text>
                <text><![CDATA[$avm=20000]]></text>
                <text><![CDATA[$4mi=8]]></text>
                <text><![CDATA[$4sa=0.900]]></text>
@@ -702,6 +696,8 @@
                <text><![CDATA[$zsn=0]]></text>
                <text><![CDATA[$st=1]]></text>
                <text><![CDATA[$asn=0]]></text>
+               <text><![CDATA[$aam=1]]></text>
+               <text><![CDATA[$p1frq=0]]></text>
             </command>
             <command type="HOME_COMMAND">
                <text><![CDATA[G28.2 X0 Y0 Z0 ; Home all axes]]></text>
@@ -727,7 +723,7 @@
             </command>
             <command type="MOVE_TO_COMMAND">
                <text><![CDATA[M201.3 {XJerk:X%.2f} {YJerk:Y%.2f} {ZJerk:Z%.2f} {AJerk:A%.2f} ]]></text>
-               <text><![CDATA[G1 {X:X%.2f} {Y:Y%.4f} {Z:Z%.4f} {A:A%.4f} {FeedRate:F%.0f} ; move to target]]></text>
+               <text><![CDATA[G1 {X:X%.2f} {Y:Y%.2f} {Z:Z%.2f} {A:A%.2f} {FeedRate:F%.0f} ; move to target]]></text>
             </command>
             <command head-mountable-id="ACT1580115049383" type="ACTUATE_BOOLEAN_COMMAND">
                <text><![CDATA[{True:M4}]]></text>
@@ -769,7 +765,7 @@
                <text><![CDATA[{True:M400            ; wait until machine has stopped}]]></text>
             </command>
             <command head-mountable-id="ACT16c828faca716e00" type="ACTUATE_BOOLEAN_COMMAND">
-               <text><![CDATA[{True:G38.2 Z-51.0 F540.0 ; probe down in absolute coordinates until limit switch is hit}]]></text>
+               <text><![CDATA[{True:G38.2 Z-51.0 F600.0 ; probe down in absolute coordinates until limit switch is hit}]]></text>
                <text><![CDATA[{True:M400            ; wait until machine has stopped}]]></text>
             </command>
             <command head-mountable-id="ACT174c4043d859ff5a" type="ACTUATOR_READ_COMMAND">
@@ -801,6 +797,9 @@
                   </head-mountable-ids>
                </axis>
             </axes>
+            <send-on-change-feed-rate send-on-change="false" relative-deviation="0.001" variable="FeedRate"/>
+            <send-on-change-acceleration send-on-change="false" relative-deviation="0.001" variable="Acceleration"/>
+            <send-on-change-jerk send-on-change="false" relative-deviation="0.001" variable="Jerk"/>
             <junction-deviation value="0.02" units="Millimeters"/>
          </driver>
       </drivers>
@@ -839,7 +838,7 @@
          </entry>
       </properties>
       <nozzle-tips>
-         <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="NT1" name="NT1" pick-dwell-milliseconds="2000" place-dwell-milliseconds="1000" place-blow-off-level="10.0" vision-calibration="FirstLocation" vision-calibration-trigger="MachineHome" vision-match-minimum-score="0.2" vision-calibration-max-passes="3" z-calibration-trigger="MachineHome" z-calibration-fail-homing="true" template-nozzle-tip="false" template-locked="false" establish-part-on-level="true" establish-part-off-level="true" part-off-probing-milliseconds="0" part-off-dwell-milliseconds="0" is-push-and-drag-allowed="false">
+         <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="NT1" name="NT1" pick-dwell-milliseconds="0" place-dwell-milliseconds="0" place-blow-off-level="20.0" vision-calibration="FirstLocation" vision-calibration-trigger="MachineHome" vision-match-minimum-score="0.2" vision-calibration-max-passes="3" z-calibration-trigger="MachineHome" z-calibration-fail-homing="true" template-nozzle-tip="false" template-locked="false" establish-part-on-level="true" establish-part-off-level="true" part-off-probing-milliseconds="0" part-off-dwell-milliseconds="0" is-push-and-drag-allowed="true">
             <changer-start-location units="Millimeters" x="41.0" y="243.31" z="-30.0" rotation="0.0"/>
             <changer-start-to-mid-speed>10.0</changer-start-to-mid-speed>
             <changer-mid-location units="Millimeters" x="-39.0" y="243.31" z="-29.5" rotation="0.0"/>
@@ -847,7 +846,7 @@
             <changer-mid-location-2 units="Millimeters" x="61.0" y="243.31" z="-30.0" rotation="0.0"/>
             <changer-mid-2-to-end-speed>10.0</changer-mid-2-to-end-speed>
             <changer-end-location units="Millimeters" x="61.0" y="243.31" z="-30.0" rotation="0.0"/>
-            <touch-location units="Millimeters" x="-14.64" y="127.188" z="-25.505" rotation="0.0"/>
+            <touch-location units="Millimeters" x="-19.51" y="131.75" z="-25.266" rotation="0.0"/>
             <vision-calibration-Z-adjust value="0.0" units="Millimeters"/>
             <vision-template-dimension-x value="10.0" units="Millimeters"/>
             <vision-template-dimension-y value="10.0" units="Millimeters"/>
@@ -856,86 +855,86 @@
             <min-part-diameter value="4.0" units="Millimeters"/>
             <max-part-diameter value="8.0" units="Millimeters"/>
             <max-part-height value="3.0" units="Millimeters"/>
-            <max-pick-tolerance value="1.0" units="Millimeters"/>
-            <calibration angle-subdivisions="6" allow-misdetections="0" angle-start="-180.0" angle-stop="180.0" excenter-ratio="0.25" enabled="true" fail-homing="true" runout-compensation-algorithm="ModelCameraOffsetAffine" version="2.1" recalibration-trigger="NozzleTipChangeInJob" background-calibration-method="BrightnessAndKeyColor" background-min-hue="34" background-max-hue="40" background-tol-hue="8" background-min-saturation="63" background-max-saturation="70" background-tol-saturation="8" background-min-value="128" background-max-value="179" background-tol-value="8" background-diagnostics="&lt;html&gt;Non-color-keyed background elements are too bright.&lt;br/&gt;Try to eliminate highlights and reflections.&lt;br/&gt;Use a shade behind the nozzle.&lt;br/&gt;Renew the blackening of dark parts of the nozzle tip.&lt;br/&gt;Clean the nozzle tip. If it is shiny, make it dull.&lt;br/&gt;Eliminate light sources that reflect on the nozzle tip.&lt;/html&gt;" min-background-mask-value="32" max-background-mask-value="128" background-worst-saturation="63" background-worst-hue-span="42" background-worst-value="127" offset-threshold="0.0" detection-threshold-margin="0.4">
+            <max-pick-tolerance value="2.0" units="Millimeters"/>
+            <calibration angle-subdivisions="6" allow-misdetections="0" angle-start="-160.0" angle-stop="200.0" excenter-ratio="0.25" enabled="false" fail-homing="false" runout-compensation-algorithm="ModelCameraOffsetAffine" version="2.1" recalibration-trigger="MachineHome" background-calibration-method="BrightnessAndKeyColor" background-min-hue="34" background-max-hue="36" background-tol-hue="8" background-min-saturation="63" background-max-saturation="64" background-tol-saturation="8" background-min-value="128" background-max-value="150" background-tol-value="8" background-diagnostics="&lt;html&gt;Non-color-keyed background elements are too bright.&lt;br/&gt;Try to eliminate highlights and reflections.&lt;br/&gt;Use a shade behind the nozzle.&lt;br/&gt;Renew the blackening of dark parts of the nozzle tip.&lt;br/&gt;Clean the nozzle tip. If it is shiny, make it dull.&lt;br/&gt;Eliminate light sources that reflect on the nozzle tip.&lt;/html&gt;" min-background-mask-value="32" max-background-mask-value="128" background-worst-saturation="63" background-worst-hue-span="42" background-worst-value="127" offset-threshold="0.0" detection-threshold-margin="0.4">
                <pipeline>
                   <stages>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" default-light="true" settle-option="Settle" count="1"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="1" enabled="true" diameter="250" property-name="MaskCircle"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="2" enabled="true" conversion="Bgr2Gray"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.Threshold" name="3" enabled="true" threshold="100" auto="true" invert="false"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.BlurMedian" name="4" enabled="true" kernel-size="5"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCirclesHough" name="results" enabled="true" min-distance="50" min-diameter="40" max-diameter="50" dp="1.0" param-1="120.0" param-2="5.0"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="5" enabled="true" image-stage-name="0"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.DrawCircles" name="6" enabled="true" circles-stage-name="results" thickness="2">
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" default-light="false" settle-option="Settle" count="1">
+                        <light class="java.lang.Boolean">true</light>
+                     </cv-stage>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb1" enabled="false" prefix="runout_calibration_source_" suffix=".png"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="2" enabled="false" kernel-size="7" property-name="BlurGaussian"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="results" enabled="true" min-diameter="30" max-diameter="50" max-distance="200" search-width="0" search-height="0" max-target-count="1" min-symmetry="1.2" corr-symmetry="0.0" outer-margin="0.2" inner-margin="0.4" sub-sampling="8" super-sampling="1" symmetry-score="OverallVarianceVsRingVarianceSum" property-name="nozzleTip" diagnostics="false" heat-map="false"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.DrawCircles" name="4" enabled="true" circles-stage-name="results" thickness="2">
                         <color r="255" g="0" b="51" a="255"/>
                         <center-color r="0" g="204" b="255" a="255"/>
                      </cv-stage>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="7" enabled="false" prefix="runoutCalibration" suffix=".png"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb1" enabled="false" prefix="runout_calibration_result_" suffix=".png"/>
                   </stages>
                </pipeline>
-               <runout-compensation-lookup class="java.util.HashMap">
-                  <entry>
-                     <string>NOZ16c8283ab6e92996</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.03665340092761188" center-y="0.029634352802214985" radius="0.015914116170314963" phase-shift="33.55975299205974" units="Millimeters" peak-error="0.040580486542672996" rms-error="0.027390899186142525"/>
-                  </entry>
-               </runout-compensation-lookup>
+               <runout-compensation-lookup class="java.util.HashMap"/>
                <minimum-detail-size value="0.2" units="Millimeters"/>
                <offset-threshold-length value="0.5" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
-               <calibration-tip-diameter value="1.2920323826983187" units="Millimeters"/>
+               <calibration-tip-diameter value="0.7894624481706622" units="Millimeters"/>
             </calibration>
             <method-part-on>Absolute</method-part-on>
-            <part-on-check-after-pick>true</part-on-check-after-pick>
+            <part-on-check-after-pick>false</part-on-check-after-pick>
             <part-on-check-align>true</part-on-check-align>
-            <part-on-check-before-place>true</part-on-check-before-place>
-            <vacuum-level-part-on-low>1300.0</vacuum-level-part-on-low>
-            <vacuum-level-part-on-high>1800.0</vacuum-level-part-on-high>
+            <part-on-check-before-place>false</part-on-check-before-place>
+            <vacuum-level-part-on-low>900.0</vacuum-level-part-on-low>
+            <vacuum-level-part-on-high>1250.0</vacuum-level-part-on-high>
             <vacuum-difference-part-on-low>0.0</vacuum-difference-part-on-low>
             <vacuum-difference-part-on-high>0.0</vacuum-difference-part-on-high>
             <method-part-off>Absolute</method-part-off>
             <part-off-check-after-place>true</part-off-check-after-place>
-            <part-off-check-before-pick>true</part-off-check-before-pick>
-            <vacuum-level-part-off-low>1000.0</vacuum-level-part-off-low>
-            <vacuum-level-part-off-high>1250.0</vacuum-level-part-off-high>
+            <part-off-check-before-pick>false</part-off-check-before-pick>
+            <vacuum-level-part-off-low>1200.0</vacuum-level-part-off-low>
+            <vacuum-level-part-off-high>1500.0</vacuum-level-part-off-high>
             <vacuum-difference-part-off-low>0.0</vacuum-difference-part-off-low>
             <vacuum-difference-part-off-high>0.0</vacuum-difference-part-off-high>
             <diameter-low value="0.0" units="Millimeters"/>
          </nozzle-tip>
       </nozzle-tips>
-      <pnp-job-processor class="org.openpnp.machine.reference.ReferencePnpJobProcessor" job-order="PartHeight" max-vision-retries="3" stepping-to-next-motion="true">
+      <pnp-job-processor class="org.openpnp.machine.reference.ReferencePnpJobProcessor" job-order="PartHeight" max-vision-retries="3" stepping-to-next-motion="true" optimize-multiple-nozzles="true">
          <planner class="org.openpnp.machine.reference.ReferencePnpJobProcessor$SimplePnpJobPlanner"/>
       </pnp-job-processor>
       <fiducial-locator class="org.openpnp.machine.reference.vision.ReferenceFiducialLocator" fiducial-vision-id="FVS_Default" enabled-averaging="false" repeat-fiducial-recognition="3">
-         <max-distance value="4.0" units="Millimeters"/>
+         <max-distance value="10.0" units="Millimeters"/>
          <tolerances>
             <scaling-tolerance>0.05</scaling-tolerance>
             <shearing-tolerance>0.05</shearing-tolerance>
             <board-location-tolerance value="5.0" units="Millimeters"/>
          </tolerances>
       </fiducial-locator>
-      <motion-planner class="org.openpnp.machine.reference.driver.ReferenceAdvancedMotionPlanner" maximum-plan-history="60.0" allow-continuous-motion="true" allow-uncoordinated="false" diagnostics-enabled="true" interpolation-retiming="true" minimum-speed="0.05" show-approximation="true" to-mid-1-speed="1.0" to-mid-2-speed="1.0" to-end-speed="1.0" start-location-enabled="false" mid-1-location-enabled="false" mid-2-location-enabled="true" end-location-enabled="true" to-mid-1-safe-z="true" to-mid-2-safe-z="true" to-end-safe-z="true">
-         <start-location units="Millimeters" x="400.0" y="20.0" z="0.0" rotation="0.0"/>
-         <mid-location-1 units="Millimeters" x="400.0" y="280.0" z="0.0" rotation="0.0"/>
-         <mid-location-2 units="Millimeters" x="400.0" y="280.0" z="0.0" rotation="180.0"/>
-         <end-location units="Millimeters" x="400.0" y="280.0" z="0.0" rotation="0.0"/>
+      <motion-planner class="org.openpnp.machine.reference.driver.ReferenceAdvancedMotionPlanner" maximum-plan-history="60.0" allow-continuous-motion="true" allow-uncoordinated="false" diagnostics-enabled="true" interpolation-retiming="true" minimum-speed="0.05" show-approximation="true" to-mid-1-speed="1.0" to-mid-2-speed="1.0" to-end-speed="1.0" start-location-enabled="true" mid-1-location-enabled="true" mid-2-location-enabled="true" end-location-enabled="true" to-mid-1-safe-z="true" to-mid-2-safe-z="true" to-end-safe-z="true">
+         <start-location units="Millimeters" x="70.567" y="210.174" z="0.0" rotation="0.0"/>
+         <mid-location-1 units="Millimeters" x="550.0" y="360.0" z="0.0" rotation="0.0"/>
+         <mid-location-2 units="Millimeters" x="442.232" y="9.228" z="0.0" rotation="0.0"/>
+         <end-location units="Millimeters" x="70.0" y="360.0" z="0.0" rotation="0.0"/>
       </motion-planner>
       <home-after-enabled>false</home-after-enabled>
       <park-after-homed>true</park-after-homed>
       <unsafe-Z-roaming-distance value="10.0" units="Millimeters"/>
       <pool-scripting-engines>true</pool-scripting-engines>
+      <auto-load-most-recent-job>true</auto-load-most-recent-job>
       <solutions show-indicator="true" target-milestone="Advanced">
          <dismissed-solutions class="java.util.HashSet">
             <string>02f12f1d75bc05ee2b230dab7bb94f138a9ca9bf</string>
             <string>3fcbcc8a7d7f59270b3425f8a014b67ee29dfafd</string>
             <string>48bbf59013c68f8db37a84cd48cf65549c2172e5</string>
-            <string>006b528db7fe4cb35830838e9555016af9194f95</string>
+            <string>a41e7d45fb2a5840bae63668d5c4dd9b9c956bf8</string>
             <string>24a06624198cf0a234332358dfc3f07906298e42</string>
             <string>4cfccdb6189be00811d0ba64fcb2e25386f1eaac</string>
-            <string>1384b0fedff6dde174e96ec586e1e51405fba523</string>
-            <string>85327e18f9b0433cb8bbad295a590c2166a2d385</string>
             <string>079614004f64e158051ad5cc7932b86ae648aebb</string>
             <string>8bda1a029713b75e10301a8a5b1e1a2add535e39</string>
+            <string>91d01f2b2e64fda8064382d22c57890558b4b58e</string>
+            <string>006b528db7fe4cb35830838e9555016af9194f95</string>
+            <string>90f7271725e21aa24659a024de6ca780cade9856</string>
+            <string>1384b0fedff6dde174e96ec586e1e51405fba523</string>
+            <string>85327e18f9b0433cb8bbad295a590c2166a2d385</string>
+            <string>d0b30f4980ec8773de05b2b0a1f7f0ebadd6de02</string>
+            <string>249696edcc19db5f0e5b41b0a86cb0852b4d8614</string>
          </dismissed-solutions>
          <solved-solutions class="java.util.HashSet">
             <string>44557ff9626740fb3457e097ec9e0a5fcd43d84b</string>
@@ -948,12 +947,9 @@
             <string>ac783e6d4dcf4f5c60656249e719fc040c00f39e</string>
             <string>6fd037e8ba1c9c49478af6b95fb0d37a096c449e</string>
             <string>5aa4e581ca4f2d0136bd1a618d53064879e42037</string>
-            <string>91d01f2b2e64fda8064382d22c57890558b4b58e</string>
             <string>04b1d115fdb35b49db0142d8e49d158bb3f1b928</string>
-            <string>90f7271725e21aa24659a024de6ca780cade9856</string>
             <string>bb19b4aef265ec3f31c6f42adeaf669ccd2db6de</string>
             <string>f378c4d1506973d0bde40497c93aaa376ddaac8a</string>
-            <string>d0b30f4980ec8773de05b2b0a1f7f0ebadd6de02</string>
             <string>04227ef22c65c32bc1479546a0e0dba4b570f187</string>
             <string>ae58e1cf3e87a64656d7f1f1e09ae68f6f108898</string>
          </solved-solutions>
